@@ -1,0 +1,798 @@
+{
+  "ipmi-2027": {
+    "abbr": "IPMI",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2026-12-07",
+        "status": "confirmed"
+      },
+      {
+        "kind": "notification",
+        "date": "2027-02-15",
+        "status": "confirmed"
+      }
+    ],
+    "candidates": [
+      {
+        "venue_id": "ipmi-2027",
+        "kind": "abstract",
+        "date": "2026-12-07",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "ng almost 60 years of scientific excellence IMPORTANT DATES Timeline Paper Abstract Due Dec 07, 2026 – end of day, AoE Full Paper Submission Dec 14, 2026 – (no extensions) Review Period Dec 18–Jan 11, 2027 Disc",
+        "source_url": "https://2027.ipmi-conf.org/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://2027.ipmi-conf.org/"
+      },
+      {
+        "venue_id": "ipmi-2027",
+        "kind": "full_paper",
+        "date": "2026-12-14",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "T DATES Timeline Paper Abstract Due Dec 07, 2026 – end of day, AoE Full Paper Submission Dec 14, 2026 – (no extensions) Review Period Dec 18–Jan 11, 2027 Discussion Period Jan 18–29, 2027 Selection Period Feb 01",
+        "source_url": "https://2027.ipmi-conf.org/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://2027.ipmi-conf.org/"
+      },
+      {
+        "venue_id": "ipmi-2027",
+        "kind": "full_paper",
+        "date": "2027-01-11",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "end of day, AoE Full Paper Submission Dec 14, 2026 – (no extensions) Review Period Dec 18–Jan 11, 2027 Discussion Period Jan 18–29, 2027 Selection Period Feb 01–15, 2027 Decision Notification Feb 15, 2027 Confere",
+        "source_url": "https://2027.ipmi-conf.org/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://2027.ipmi-conf.org/"
+      },
+      {
+        "venue_id": "ipmi-2027",
+        "kind": "notification",
+        "date": "2027-02-15",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "Discussion Period Jan 18–29, 2027 Selection Period Feb 01–15, 2027 Decision Notification Feb 15, 2027 Conference Jun 27 – Jul 02, 2027 FOR AUTHORS CALL FOR PAPERS VENUE ORGANIZATION SPONSORS SPONSORING Address",
+        "source_url": "https://2027.ipmi-conf.org/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://2027.ipmi-conf.org/"
+      }
+    ]
+  },
+  "miccai-2027": {
+    "abbr": "MICCAI",
+    "stored": [
+      {
+        "kind": "abstract",
+        "date": "2027-02-18",
+        "status": "predicted"
+      },
+      {
+        "kind": "full_paper",
+        "date": "2027-02-25",
+        "status": "predicted"
+      },
+      {
+        "kind": "notification",
+        "date": "2027-06-10",
+        "status": "predicted"
+      }
+    ],
+    "candidates": [
+      {
+        "venue_id": "miccai-2027",
+        "kind": "full_paper",
+        "date": "2026-11-11",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "l for Authors & Ambassadors Read Article Events All Dates RISE-MICCAI Autumn School 2026 November 11, 2026 View Details Application deadline: MICCAI Society Awards for Advancement of Health Equity November 12, 2026",
+        "source_url": "https://miccai.org/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://miccai.org/"
+      },
+      {
+        "venue_id": "miccai-2027",
+        "kind": "full_paper",
+        "date": "2026-11-12",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "iew Details Application deadline: MICCAI Society Awards for Advancement of Health Equity November 12, 2026 View Details Application deadline: MICCAI Society Membership Grants November 30, 2026 View Details Abstrac",
+        "source_url": "https://miccai.org/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://miccai.org/"
+      },
+      {
+        "venue_id": "miccai-2027",
+        "kind": "full_paper",
+        "date": "2026-11-30",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "November 12, 2026 View Details Application deadline: MICCAI Society Membership Grants November 30, 2026 View Details Abstract deadline: AIinRT 2027 (MICCAI-endorsed event) December 1, 2026 View Details Submissi",
+        "source_url": "https://miccai.org/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://miccai.org/"
+      },
+      {
+        "venue_id": "miccai-2027",
+        "kind": "full_paper",
+        "date": "2026-12-01",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "November 30, 2026 View Details Abstract deadline: AIinRT 2027 (MICCAI-endorsed event) December 1, 2026 View Details Submission deadline: IPMI 2027 (MICCAI-endorsed Event) December 7, 2026 View Details Career S",
+        "source_url": "https://miccai.org/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://miccai.org/"
+      },
+      {
+        "venue_id": "miccai-2027",
+        "kind": "full_paper",
+        "date": "2026-12-07",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": ") December 1, 2026 View Details Submission deadline: IPMI 2027 (MICCAI-endorsed Event) December 7, 2026 View Details Career Support Mentorship Program Learn More The MICCAI Society Mentorship Program can help yo",
+        "source_url": "https://miccai.org/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://miccai.org/"
+      },
+      {
+        "venue_id": "miccai-2027",
+        "kind": "full_paper",
+        "date": "2026-11-18",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "PAIM 2026 – 22nd International Symposium on Medical Information Processing and Analysis - November 18, 2026 Application deadline: MICCAI Society Awards for Advancement of Health Equity - November 12, 2026 RISE-MICCAI",
+        "source_url": "https://miccai.org/2026/06/22/submission-deadline-ipmi-2027/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://miccai.org/2026/06/22/submission-deadline-ipmi-2027/"
+      }
+    ]
+  },
+  "midl-2027": {
+    "abbr": "MIDL",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2027-02-06",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "isbi-2027": {
+    "abbr": "ISBI",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2027-02-26",
+        "status": "verified"
+      },
+      {
+        "kind": "notification",
+        "date": "2027-03-01",
+        "status": "verified"
+      }
+    ],
+    "candidates": [
+      {
+        "venue_id": "isbi-2027",
+        "kind": "abstract",
+        "date": "2027-02-01",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "ary 2027 Final Submission Tuesday 26 January 2027 One Page Abstracts Submission Monday 1 February 2027 Notification Monday 15 February 2027 Challenges Proposal Submission Monday, 21 September 2026 Proposal No",
+        "source_url": "https://biomedicalimaging.org/2027/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://biomedicalimaging.org/2027/"
+      },
+      {
+        "venue_id": "isbi-2027",
+        "kind": "abstract",
+        "date": "2027-02-15",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "January 2027 One Page Abstracts Submission Monday 1 February 2027 Notification Monday 15 February 2027 Challenges Proposal Submission Monday, 21 September 2026 Proposal Notifications Monday, 16 November 2026",
+        "source_url": "https://biomedicalimaging.org/2027/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://biomedicalimaging.org/2027/"
+      },
+      {
+        "venue_id": "isbi-2027",
+        "kind": "notification",
+        "date": "2026-11-16",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "Challenges Proposal Submission Monday, 21 September 2026 Proposal Notifications Monday, 16 November 2026 Paper Submission Friday, 26 February 2027 Paper Notification Monday, 1 March 2027 Final Submission Monday,",
+        "source_url": "https://biomedicalimaging.org/2027/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://biomedicalimaging.org/2027/"
+      },
+      {
+        "venue_id": "isbi-2027",
+        "kind": "full_paper",
+        "date": "2027-02-26",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "September 2026 Proposal Notifications Monday, 16 November 2026 Paper Submission Friday, 26 February 2027 Paper Notification Monday, 1 March 2027 Final Submission Monday, 15 March 2027 All deadlines are 11:59pm U",
+        "source_url": "https://biomedicalimaging.org/2027/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://biomedicalimaging.org/2027/"
+      },
+      {
+        "venue_id": "isbi-2027",
+        "kind": "notification",
+        "date": "2027-03-01",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": ", 16 November 2026 Paper Submission Friday, 26 February 2027 Paper Notification Monday, 1 March 2027 Final Submission Monday, 15 March 2027 All deadlines are 11:59pm USA (ET) Plenary Speakers Ivan Dokmanić",
+        "source_url": "https://biomedicalimaging.org/2027/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://biomedicalimaging.org/2027/"
+      },
+      {
+        "venue_id": "isbi-2027",
+        "kind": "full_paper",
+        "date": "2027-03-15",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "iday, 26 February 2027 Paper Notification Monday, 1 March 2027 Final Submission Monday, 15 March 2027 All deadlines are 11:59pm USA (ET) Plenary Speakers Ivan Dokmanić University of Basel, Switzerland Anna K",
+        "source_url": "https://biomedicalimaging.org/2027/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://biomedicalimaging.org/2027/"
+      },
+      {
+        "venue_id": "isbi-2027",
+        "kind": "full_paper",
+        "date": "2026-11-02",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "ng Your Paper Submit your paper using the link below. The submission deadline is Monday 2 November 2026. ** Submissions sent via email will NOT be considered. Submit Paper Author Preprints Guidelines Authors m",
+        "source_url": "https://biomedicalimaging.org/2027/papers/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://biomedicalimaging.org/2027/papers/"
+      },
+      {
+        "venue_id": "isbi-2027",
+        "kind": "notification",
+        "date": "2027-01-12",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "hould be added. IMPORTANT DATES Submission Monday 2 November 2026 Notification Tuesday 12 January 2027 Final Submission Tuesday 26 January 2027 Home Sitemap Contact & Support Accessibility Nondiscriminatio",
+        "source_url": "https://biomedicalimaging.org/2027/papers/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://biomedicalimaging.org/2027/papers/"
+      },
+      {
+        "venue_id": "isbi-2027",
+        "kind": "full_paper",
+        "date": "2027-01-26",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "on Monday 2 November 2026 Notification Tuesday 12 January 2027 Final Submission Tuesday 26 January 2027 Home Sitemap Contact & Support Accessibility Nondiscrimination Policy IEEE Ethics Reporting IEEE Privac",
+        "source_url": "https://biomedicalimaging.org/2027/papers/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://biomedicalimaging.org/2027/papers/"
+      }
+    ]
+  },
+  "spie-mi-2027": {
+    "abbr": "SPIE MI",
+    "stored": [
+      {
+        "kind": "abstract",
+        "date": "2026-08-28",
+        "status": "predicted"
+      },
+      {
+        "kind": "full_paper",
+        "date": "2026-10-15",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "cvpr-2027": {
+    "abbr": "CVPR",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2026-11-16",
+        "status": "confirmed"
+      },
+      {
+        "kind": "supplementary",
+        "date": "2026-11-23",
+        "status": "verified"
+      },
+      {
+        "kind": "notification",
+        "date": "2027-02-20",
+        "status": "predicted"
+      }
+    ],
+    "candidates": [
+      {
+        "venue_id": "cvpr-2027",
+        "kind": "full_paper",
+        "date": "2026-11-23",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "* Nov 16, 2026 11:59 PM AOE or 01 weeks 06 days 01:54:15 Supplementary Materials Deadline Nov 23, 2026 11:59 PM AOE or 02 weeks 06 days 01:54:15 Reviews Released Jan 25, 2027 AOE Rebuttal Period January 25 - Febr",
+        "source_url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers"
+      },
+      {
+        "venue_id": "cvpr-2027",
+        "kind": "full_paper",
+        "date": "2027-01-25",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "aterials Deadline Nov 23, 2026 11:59 PM AOE or 02 weeks 06 days 01:54:15 Reviews Released Jan 25, 2027 AOE Rebuttal Period January 25 - February 1, 2027 AOE Final Decisions Feb 25, 2027 AOE * Date is fixed, no e",
+        "source_url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers"
+      },
+      {
+        "venue_id": "cvpr-2027",
+        "kind": "rebuttal",
+        "date": "2027-02-01",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "02 weeks 06 days 01:54:15 Reviews Released Jan 25, 2027 AOE Rebuttal Period January 25 - February 1, 2027 AOE Final Decisions Feb 25, 2027 AOE * Date is fixed, no extension will be given AOE = Anywhere On Earth P",
+        "source_url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers"
+      },
+      {
+        "venue_id": "cvpr-2027",
+        "kind": "rebuttal",
+        "date": "2027-02-25",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "leased Jan 25, 2027 AOE Rebuttal Period January 25 - February 1, 2027 AOE Final Decisions Feb 25, 2027 AOE * Date is fixed, no extension will be given AOE = Anywhere On Earth Paper Submission All submissions",
+        "source_url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers"
+      },
+      {
+        "venue_id": "cvpr-2027",
+        "kind": "full_paper",
+        "date": "2026-11-16",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "ence. All authors must agree to the policies stipulated below. The submission deadline is November 16th, 2026 Anywhere on Earth (UTC-12) and will not be changed. Supplementary materials can be submitted until November 2",
+        "source_url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers"
+      },
+      {
+        "venue_id": "cvpr-2027",
+        "kind": "supplementary",
+        "date": "2026-11-23",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "on Earth (UTC-12) and will not be changed. Supplementary materials can be submitted until November 23rd, 2026 Anywhere on Earth (UTC-12). An up-to-date OpenReview profile for all co-authors is required to submit a pap",
+        "source_url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers"
+      }
+    ]
+  },
+  "iccv-2027": {
+    "abbr": "ICCV",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2027-03-20",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "neurips-2027": {
+    "abbr": "NeurIPS",
+    "stored": [
+      {
+        "kind": "abstract",
+        "date": "2027-05-12",
+        "status": "predicted"
+      },
+      {
+        "kind": "full_paper",
+        "date": "2027-05-19",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "icml-2027": {
+    "abbr": "ICML",
+    "stored": [
+      {
+        "kind": "abstract",
+        "date": "2027-01-21",
+        "status": "predicted"
+      },
+      {
+        "kind": "full_paper",
+        "date": "2027-01-28",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "iclr-2028": {
+    "abbr": "ICLR",
+    "stored": [
+      {
+        "kind": "abstract",
+        "date": "2027-09-17",
+        "status": "predicted"
+      },
+      {
+        "kind": "full_paper",
+        "date": "2027-09-24",
+        "status": "predicted"
+      }
+    ],
+    "candidates": [
+      {
+        "venue_id": "iclr-2028",
+        "kind": "full_paper",
+        "date": "2026-11-05",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "): Abstract deadline Sep 18, 2026 AOE Paper deadline Sep 25, 2026 AOE Reviews released Nov 05, 2026 Author-reviewer discussion Nov 05, 2026–Nov 18, 2026 Reviewer-AC discussion Nov 19, 2026–Dec 16, 2026 Fina",
+        "source_url": "https://iclr.cc/Conferences/2027/CallForPapers",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://iclr.cc/Conferences/2027/CallForPapers"
+      }
+    ]
+  },
+  "aaai-2027": {
+    "abbr": "AAAI",
+    "stored": [
+      {
+        "kind": "abstract",
+        "date": "2026-08-01",
+        "status": "predicted"
+      },
+      {
+        "kind": "full_paper",
+        "date": "2026-08-08",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "ijcai-2027": {
+    "abbr": "IJCAI",
+    "stored": [
+      {
+        "kind": "abstract",
+        "date": "2027-01-08",
+        "status": "predicted"
+      },
+      {
+        "kind": "full_paper",
+        "date": "2027-01-15",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "mm-2027": {
+    "abbr": "ACM MM",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2027-04-10",
+        "status": "predicted"
+      },
+      {
+        "kind": "supplementary",
+        "date": "2027-04-17",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "acl-2027": {
+    "abbr": "ACL",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2027-02-15",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "emnlp-2027": {
+    "abbr": "EMNLP",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2027-05-15",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "icassp-2027": {
+    "abbr": "ICASSP",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2026-09-16",
+        "status": "predicted"
+      }
+    ],
+    "candidates": [
+      {
+        "venue_id": "icassp-2027",
+        "kind": "full_paper",
+        "date": "2027-01-06",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "ull Paper Submission Deadline September 23, 2026 Published Journal Papers and Letters Due January 6, 2027 Paper Acceptance Notification January 13, 2027 Final Paper Deadline January 27, 2027 Author Registration Dead",
+        "source_url": "https://2027.ieeeicassp.org/call-for-papers/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://2027.ieeeicassp.org/call-for-papers/"
+      },
+      {
+        "venue_id": "icassp-2027",
+        "kind": "notification",
+        "date": "2027-01-13",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "26 Published Journal Papers and Letters Due January 6, 2027 Paper Acceptance Notification January 13, 2027 Final Paper Deadline January 27, 2027 Author Registration Deadline February 10, 2027 Open Preview Starts Apri",
+        "source_url": "https://2027.ieeeicassp.org/call-for-papers/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://2027.ieeeicassp.org/call-for-papers/"
+      },
+      {
+        "venue_id": "icassp-2027",
+        "kind": "full_paper",
+        "date": "2027-01-27",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "s Due January 6, 2027 Paper Acceptance Notification January 13, 2027 Final Paper Deadline January 27, 2027 Author Registration Deadline February 10, 2027 Open Preview Starts April 16, 2027 Technical Program Chairs",
+        "source_url": "https://2027.ieeeicassp.org/call-for-papers/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://2027.ieeeicassp.org/call-for-papers/"
+      },
+      {
+        "venue_id": "icassp-2027",
+        "kind": "full_paper",
+        "date": "2026-11-02",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "eadline MORE INFO 23 SEP 2026 schedule11:47 AM Full Paper Submission Deadline MORE INFO 02 NOV 2026 today schedule11:47 AM Tutorials Proposal Deadline MORE INFO 06 JAN 2027 today schedule11:47 AM Publish",
+        "source_url": "https://2027.ieeeicassp.org/important-dates/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://2027.ieeeicassp.org/important-dates/"
+      },
+      {
+        "venue_id": "icassp-2027",
+        "kind": "full_paper",
+        "date": "2027-01-13",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "06 JAN 2027 today schedule11:47 AM Published Journal Papers and Letters Due MORE INFO 13 JAN 2027 today schedule11:47 AM Paper Acceptance Notification MORE INFO 27 JAN 2027 today schedule11:47 AM Final",
+        "source_url": "https://2027.ieeeicassp.org/important-dates/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://2027.ieeeicassp.org/important-dates/"
+      },
+      {
+        "venue_id": "icassp-2027",
+        "kind": "notification",
+        "date": "2027-01-27",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "e MORE INFO 13 JAN 2027 today schedule11:47 AM Paper Acceptance Notification MORE INFO 27 JAN 2027 today schedule11:47 AM Final Paper Submission MORE INFO 01 FEB 2027 today schedule11:47 AM Show & Tell",
+        "source_url": "https://2027.ieeeicassp.org/important-dates/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://2027.ieeeicassp.org/important-dates/"
+      },
+      {
+        "venue_id": "icassp-2027",
+        "kind": "full_paper",
+        "date": "2027-02-01",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "fication MORE INFO 27 JAN 2027 today schedule11:47 AM Final Paper Submission MORE INFO 01 FEB 2027 today schedule11:47 AM Show & Tell Proposals MORE INFO 10 FEB 2027 today schedule11:47 AM Author Regist",
+        "source_url": "https://2027.ieeeicassp.org/important-dates/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://2027.ieeeicassp.org/important-dates/"
+      },
+      {
+        "venue_id": "icassp-2027",
+        "kind": "full_paper",
+        "date": "2027-02-10",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "ubmission MORE INFO 01 FEB 2027 today schedule11:47 AM Show & Tell Proposals MORE INFO 10 FEB 2027 today schedule11:47 AM Author Registration Deadline MORE INFO 16 APR 2027 today schedule11:47 AM Open P",
+        "source_url": "https://2027.ieeeicassp.org/important-dates/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://2027.ieeeicassp.org/important-dates/"
+      }
+    ]
+  },
+  "icip-2027": {
+    "abbr": "ICIP",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2027-02-01",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "chil-2027": {
+    "abbr": "CHIL",
+    "stored": [
+      {
+        "kind": "abstract",
+        "date": "2027-01-12",
+        "status": "predicted"
+      },
+      {
+        "kind": "full_paper",
+        "date": "2027-02-03",
+        "status": "verified"
+      }
+    ],
+    "candidates": [
+      {
+        "venue_id": "chil-2027",
+        "kind": "full_paper",
+        "date": "2027-02-03",
+        "time": "23:59",
+        "tz": "AoE",
+        "snippet": "view accounts created for all authors Friday, January 15, 2027 Submissions due Wednesday, February 3, 2027 Bidding opens for reviewers Early Feb 2027 Bidding closes for reviewers Early to mid-Feb 2027 Reviews assigne",
+        "source_url": "https://chil.ahli.cc/submit/call-for-papers/",
+        "extracted_at": "2026-11-04T18:19:01+08:00",
+        "status": "candidate",
+        "confidence": "medium",
+        "url": "https://chil.ahli.cc/submit/call-for-papers/"
+      }
+    ]
+  },
+  "mlhc-2027": {
+    "abbr": "MLHC",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2027-04-15",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "ml4h-2027": {
+    "abbr": "ML4H",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2027-08-20",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "amia-2027": {
+    "abbr": "AMIA",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2027-03-16",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "ichi-2027": {
+    "abbr": "ICHI",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2027-02-10",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "bibm-2027": {
+    "abbr": "BIBM",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2027-07-15",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  },
+  "bcb-2027": {
+    "abbr": "ACM BCB",
+    "stored": [
+      {
+        "kind": "full_paper",
+        "date": "2027-05-01",
+        "status": "predicted"
+      }
+    ],
+    "candidates": []
+  }
+}

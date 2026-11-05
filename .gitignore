@@ -1,0 +1,39 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Runtime data (the catalog itself is versioned; operational state is not)
+data/backups/
+data/runs/
+data/snapshots/
+data/verify_text/
+data/verify_site/
+data/takeover/
+data/scratch/
+data/ccfddl.yml
+data/ccfddl_raw.yml
+data/letpub_sample.html
+data/letpub_rows.txt
+data/letpub_row_debug.txt
+data/state_scrape.json
+data/state_verify.json
+data/state_reminders.json
+data/reminders.jsonl
+data/auto_applied.jsonl
+data/candidates.json
+data/user_state.json
+data/removed_venues.json
+
+# Local machine config (paths to the Lexmount CLIs)
+config.json
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Generated artifacts / backups
+*.bak
+data/ccfddl_fresh.yml

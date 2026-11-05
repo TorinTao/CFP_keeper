@@ -1,0 +1,33 @@
+{
+  "port": 8770,
+  "display_timezone": "Asia/Shanghai",
+  "scrape": {
+    "cli_path": "C:\\path\\to\\lexmount-webfetch\\bin\\webfetch-cli.exe",
+    "browser_cli_path": "C:\\path\\to\\lexmount-browser\\bin\\browser-cli.exe",
+    "browser_fallback": true,
+    "timeout_seconds": 120,
+    "auto_apply": true,
+    "auto_apply_guard_days": 90,
+    "protect_confirmed": true,
+    "auto": true,
+    "daily_time": "09:00"
+  },
+  "verify": {
+    "enabled": true,
+    "daily_time": "10:00",
+    "max_shift_days": 30,
+    "pending_only": true
+  },
+  "reminders": {
+    "thresholds": [
+      30,
+      14,
+      7,
+      3,
+      1
+    ],
+    "tick_seconds": 900,
+    "digest_hour": 9,
+    "toast": true
+  }
+}

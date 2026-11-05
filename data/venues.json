@@ -1,0 +1,4394 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-05T21:28:28+08:00",
+  "notes": "confirmed=官网核验；scraped=自动抓取；predicted=按历年规律推测。期刊为滚动投稿。",
+  "venues": [
+    {
+      "id": "ipmi-2027",
+      "name": "Information Processing in Medical Imaging",
+      "abbr": "IPMI",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "medical-imaging",
+        "ai"
+      ],
+      "tier": {
+        "ccf": "C",
+        "cas": null
+      },
+      "topics": [
+        "多模态融合",
+        "影像重建",
+        "统计建模",
+        "基础模型",
+        "不确定性"
+      ],
+      "tracks": [
+        {
+          "name": "Single track（单轨）",
+          "kind": "main",
+          "note": "不设并行分会"
+        },
+        {
+          "name": "Proceedings (LNCS)",
+          "kind": "proceedings",
+          "note": "12 页，双盲"
+        }
+      ],
+      "acceptance": {
+        "display": "约 27%",
+        "percent": 27.0,
+        "scope": "主会",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "CMT / OpenReview",
+        "preprint": "allowed",
+        "preprint_note": "允许 arXiv；正式发表前需与 proceedings 版本区分",
+        "code": "encouraged",
+        "code_note": "评审重视可复现性，建议附代码",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费（LNCS 出版）",
+        "attendance": "in-person",
+        "rounds": "2 轮",
+        "acceptance_note": "MICCAI 近年约 30%；ISBI 约 50%"
+      },
+      "official_url": "https://2027.ipmi-conf.org/",
+      "cfp_url": "https://2027.ipmi-conf.org/",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2026-12-14",
+          "time": "23:59",
+          "tz": "AoE",
+          "source_status": "verified",
+          "note": "自动核验：读取官网原文核对（官网 2027 页核对：全文截止 12-14（此前误记为 12-07 摘）",
+          "source": {
+            "url": "https://2027.ipmi-conf.org/",
+            "checked_at": "2026-11-04T18:19:35+08:00",
+            "snippet": "Full Paper Submission Dec 14, 2026 - (no extensions)"
+          }
+        },
+        {
+          "kind": "notification",
+          "date": "2027-02-15",
+          "time": "23:59",
+          "tz": "PST",
+          "track": "主会",
+          "source_status": "verified",
+          "note": "自动核验：读取官网原文核对（Decision Notification）",
+          "source": {
+            "url": "https://2027.ipmi-conf.org/",
+            "checked_at": "2026-11-04T18:20:00+08:00",
+            "snippet": "Decision Notification Feb 15, 2027"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-06-27",
+          "time": "09:00",
+          "tz": "EST",
+          "track": "主会",
+          "source_status": "verified",
+          "note": "自动核验：读取官网原文核对（Lake Stukely, Quebec）",
+          "source": {
+            "url": "https://2027.ipmi-conf.org/",
+            "checked_at": "2026-11-04T18:20:00+08:00",
+            "snippet": "Conference Jun 27 - Jul 02, 2027"
+          }
+        },
+        {
+          "kind": "abstract",
+          "date": "2026-12-07",
+          "time": "23:59",
+          "tz": "AoE",
+          "source_status": "verified",
+          "note": "自动核验：读取官网原文核对（官网 2027 页核对：摘要截止 12-07（AoE））",
+          "source": {
+            "url": "https://2027.ipmi-conf.org/",
+            "checked_at": "2026-11-04T18:19:35+08:00",
+            "snippet": "IMPORTANT DATES: Paper Abstract Due Dec 07, 2026 - end of day, AoE"
+          }
+        }
+      ],
+      "materials": [
+        "摘要",
+        "全文（12 页 LNCS）",
+        "双盲匿名版"
+      ],
+      "page_limit": "12 pages excluding refs, LNCS",
+      "blind": "double",
+      "notes": "两年一届，retreat 式小会，重方法论与讨论"
+    },
+    {
+      "id": "miccai-2027",
+      "name": "Medical Image Computing and Computer Assisted Intervention",
+      "abbr": "MICCAI",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "medical-imaging",
+        "ai"
+      ],
+      "tier": {
+        "ccf": "B",
+        "cas": null
+      },
+      "topics": [
+        "影像分割",
+        "多模态融合",
+        "基础模型",
+        "手术导航",
+        "影像组学"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "8+4 页 LNCS，双盲"
+        },
+        {
+          "name": "Workshops",
+          "kind": "workshop",
+          "note": "MLMI / ML4H / MMDC 等"
+        },
+        {
+          "name": "Challenges",
+          "kind": "challenge",
+          "note": "与主会同期"
+        },
+        {
+          "name": "Journal Track",
+          "kind": "journal",
+          "note": "MedIA 特刊，需 ≥30% 新内容"
+        }
+      ],
+      "acceptance": {
+        "display": "约 32%",
+        "percent": 32.0,
+        "scope": "主会",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "CMT / OpenReview",
+        "preprint": "allowed",
+        "preprint_note": "允许 arXiv；正式发表前需与 proceedings 版本区分",
+        "code": "encouraged",
+        "code_note": "评审重视可复现性，建议附代码",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费（LNCS 出版）",
+        "attendance": "in-person",
+        "rounds": "2 轮",
+        "acceptance_note": "MICCAI 近年约 30%；ISBI 约 50%"
+      },
+      "official_url": "https://www.miccai.org/",
+      "cfp_url": "https://www.miccai.org/",
+      "deadlines": [
+        {
+          "kind": "abstract",
+          "date": "2027-02-18",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://www.miccai.org/",
+            "checked_at": "2026-11-05T17:13:19+08:00"
+          }
+        },
+        {
+          "kind": "full_paper",
+          "date": "2027-02-25",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "官网 conferences.miccai.org/2027 显示 Important Dates will be announced soon（2026-11-04 查看），保留推测值",
+          "source": {
+            "url": "https://conferences.miccai.org/2027/en/CALLS.html",
+            "checked_at": "2026-11-04T18:30:00+08:00"
+          }
+        },
+        {
+          "kind": "notification",
+          "date": "2027-06-10",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://www.miccai.org/",
+            "checked_at": "2026-11-05T17:13:19+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-09-27",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "举办地待官网确认"
+        }
+      ],
+      "materials": [
+        "摘要",
+        "全文（8+4 页）",
+        "补充材料",
+        "双盲匿名版"
+      ],
+      "page_limit": "8+4 pages, LNCS",
+      "blind": "double",
+      "notes": "医学影像计算第一会议，workshop 紧随其后"
+    },
+    {
+      "id": "midl-2027",
+      "name": "Medical Imaging with Deep Learning",
+      "abbr": "MIDL",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "medical-imaging",
+        "ai"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": null
+      },
+      "topics": [
+        "自监督",
+        "影像分割",
+        "基础模型",
+        "不确定性"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Short Paper",
+          "kind": "main",
+          "note": "OpenReview"
+        },
+        {
+          "name": "Extended Abstracts",
+          "kind": "abstract",
+          "note": "不收 proceedings"
+        }
+      ],
+      "acceptance": {
+        "display": "约 55%",
+        "percent": 55.0,
+        "scope": "主会",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "CMT / OpenReview",
+        "preprint": "allowed",
+        "preprint_note": "允许 arXiv；正式发表前需与 proceedings 版本区分",
+        "code": "encouraged",
+        "code_note": "评审重视可复现性，建议附代码",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费（LNCS 出版）",
+        "attendance": "in-person",
+        "rounds": "2 轮",
+        "acceptance_note": "MICCAI 近年约 30%；ISBI 约 50%"
+      },
+      "official_url": "https://midl.io/",
+      "cfp_url": "https://midl.io/",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2027-02-06",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://midl.io/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-07-05",
+          "time": "09:00",
+          "tz": "CET",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 7 月"
+        }
+      ],
+      "materials": [
+        "短稿（4–8 页）"
+      ],
+      "page_limit": "short paper",
+      "blind": "single",
+      "notes": "轻量、社区活跃，无正式 proceedings"
+    },
+    {
+      "id": "isbi-2027",
+      "name": "IEEE International Symposium on Biomedical Imaging",
+      "abbr": "ISBI",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "medical-imaging",
+        "ai"
+      ],
+      "tier": {
+        "ccf": "C",
+        "cas": null
+      },
+      "topics": [
+        "影像重建",
+        "影像分割",
+        "显微成像",
+        "多模态融合"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "4 页 IEEE 模板"
+        },
+        {
+          "name": "Challenges",
+          "kind": "challenge",
+          "note": "与主会绑定"
+        }
+      ],
+      "acceptance": {
+        "display": "约 52%",
+        "percent": 52.0,
+        "scope": "主会",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "CMT / OpenReview",
+        "preprint": "allowed",
+        "preprint_note": "允许 arXiv；正式发表前需与 proceedings 版本区分",
+        "code": "encouraged",
+        "code_note": "评审重视可复现性，建议附代码",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费（LNCS 出版）",
+        "attendance": "in-person",
+        "rounds": "2 轮",
+        "acceptance_note": "MICCAI 近年约 30%；ISBI 约 50%"
+      },
+      "official_url": "https://biomedicalimaging.org/2027/",
+      "cfp_url": "https://biomedicalimaging.org/2027/",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2027-02-26",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "verified",
+          "note": "自动核验（2026-11-04T14:06）",
+          "source": {
+            "url": "https://biomedicalimaging.org/2027/",
+            "checked_at": "2026-11-04T14:06:58+08:00",
+            "snippet": "1 September 2026 Proposal Notifications Monday, 16 November 2026 Paper Submission Friday, 26 February 2027 Paper Notification Monday, 1 March 2027 Final Submission Monday, 15 March 2027 All deadlines are 11:59pm USA"
+          }
+        },
+        {
+          "kind": "notification",
+          "date": "2027-03-01",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "verified",
+          "note": "自动核验（2026-11-05T10:00）官网日期一致",
+          "source": {
+            "url": "https://biomedicalimaging.org/2027/",
+            "checked_at": "2026-11-05T10:00:23+08:00",
+            "snippet": ", 16 November 2026 Paper Submission Friday, 26 February 2027 Paper Notification Monday, 1 March 2027 Final Submission Monday, 15 March 2027 All deadlines are 11:59pm USA (ET) Plenary Speakers Ivan Dokmanić"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-04-20",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 4 月"
+        }
+      ],
+      "materials": [
+        "4 页全文",
+        "补充材料"
+      ],
+      "page_limit": "4 pages",
+      "blind": "single",
+      "notes": "接受率友好，适合保底或阶段性成果"
+    },
+    {
+      "id": "spie-mi-2027",
+      "name": "SPIE Medical Imaging",
+      "abbr": "SPIE MI",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "medical-imaging"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": null
+      },
+      "topics": [
+        "CT 重建",
+        "影像组学",
+        "CAD",
+        "超声"
+      ],
+      "tracks": [
+        {
+          "name": "分会议 Track",
+          "kind": "main",
+          "note": "Physics / CAD / Image Processing 等"
+        },
+        {
+          "name": "摘要 → 全文",
+          "kind": "proceedings",
+          "note": "先审摘要"
+        }
+      ],
+      "acceptance": {
+        "display": "约 70%",
+        "percent": 70.0,
+        "scope": "分会议",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "CMT / OpenReview",
+        "preprint": "allowed",
+        "preprint_note": "允许 arXiv；正式发表前需与 proceedings 版本区分",
+        "code": "encouraged",
+        "code_note": "评审重视可复现性，建议附代码",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费（LNCS 出版）",
+        "attendance": "in-person",
+        "rounds": "2 轮",
+        "acceptance_note": "MICCAI 近年约 30%；ISBI 约 50%"
+      },
+      "official_url": "https://spie.org/conferences-and-exhibitions/medical-imaging",
+      "cfp_url": "https://spie.org/conferences-and-exhibitions/medical-imaging",
+      "deadlines": [
+        {
+          "kind": "abstract",
+          "date": "2026-08-28",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://spie.org/conferences-and-exhibitions/medical-imaging",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "full_paper",
+          "date": "2026-10-15",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://spie.org/conferences-and-exhibitions/medical-imaging",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-02-14",
+          "time": "09:00",
+          "tz": "PST",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 2 月，美国"
+        }
+      ],
+      "materials": [
+        "2 页摘要",
+        "全文（会后）"
+      ],
+      "page_limit": "abstract 2 pages",
+      "blind": "single",
+      "notes": "偏成像物理与 CAD，工程味重"
+    },
+    {
+      "id": "cvpr-2027",
+      "name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "abbr": "CVPR",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "cv",
+        "ai"
+      ],
+      "tier": {
+        "ccf": "A",
+        "cas": null
+      },
+      "topics": [
+        "视觉语言",
+        "生成模型",
+        "3D 重建",
+        "自监督"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "8 页 CVF"
+        },
+        {
+          "name": "Workshops",
+          "kind": "workshop",
+          "note": "含医学影像 workshop"
+        },
+        {
+          "name": "Tutorials",
+          "kind": "tutorial",
+          "note": "不投稿"
+        }
+      ],
+      "acceptance": {
+        "display": "约 23%",
+        "percent": 23.0,
+        "scope": "主会",
+        "year": "2024",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "OpenReview / CMT",
+        "preprint": "allowed",
+        "preprint_note": "允许 arXiv 预印本，审稿期间可更新版本",
+        "code": "encouraged",
+        "code_note": "鼓励提交代码；可复现性会影响评分",
+        "access": "registration",
+        "apc_note": "无 APC，需交会议注册费",
+        "attendance": "in-person",
+        "rounds": "2–3 轮",
+        "acceptance_note": "近年约 20–30%，逐年波动"
+      },
+      "official_url": "https://cvpr.thecvf.com/",
+      "cfp_url": "https://cvpr.thecvf.com/",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2026-11-16",
+          "time": "23:59",
+          "tz": "AoE",
+          "source_status": "verified",
+          "note": "自动核验：读取官网原文核对（官网 Call for Papers 页核对：全文提交截止 Nov 16）",
+          "source": {
+            "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+            "checked_at": "2026-11-04T14:22:42+08:00",
+            "snippet": "Important Dates: Paper Enrollment Deadline Nov 10, 2026; Submission Deadline Nov 16, 2026 11:59 PM AOE; Supplementary Materials Deadline Nov 23, 2026"
+          }
+        },
+        {
+          "kind": "supplementary",
+          "date": "2026-11-23",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "verified",
+          "note": "自动核验（2026-11-04T14:21）官网日期一致",
+          "source": {
+            "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+            "checked_at": "2026-11-04T14:21:32+08:00",
+            "snippet": "on Earth (UTC-12) and will not be changed. Supplementary materials can be submitted until November 23rd, 2026 Anywhere on Earth (UTC-12). An up-to-date OpenReview profile for all co-authors is required to submit a paper"
+          }
+        },
+        {
+          "kind": "notification",
+          "date": "2027-02-25",
+          "time": "23:59",
+          "tz": "AoE",
+          "source_status": "verified",
+          "note": "自动核验：读取官网原文核对（官网 CFP 页核对：最终决定 2027-02-25（AoE））",
+          "source": {
+            "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+            "checked_at": "2026-11-04T18:19:35+08:00",
+            "snippet": "Reviews Released Jan 25, 2027 AOE; Rebuttal Period January 25 - February 1, 2027; Final Decisions Feb 25, 2027 AOE"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-06-20",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 6 月"
+        }
+      ],
+      "materials": [
+        "全文（8 页）",
+        "补充材料",
+        "双盲匿名版"
+      ],
+      "page_limit": "8 pages + refs, CVF",
+      "blind": "double",
+      "notes": "纯方法突破走这里；医学应用稿竞争激烈"
+    },
+    {
+      "id": "iccv-2027",
+      "name": "IEEE/CVF International Conference on Computer Vision",
+      "abbr": "ICCV",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "cv",
+        "ai"
+      ],
+      "tier": {
+        "ccf": "A",
+        "cas": null
+      },
+      "topics": [
+        "视觉语言",
+        "生成模型",
+        "视频理解"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "8 页 CVF"
+        },
+        {
+          "name": "Workshops",
+          "kind": "workshop",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 26%",
+        "percent": 26.0,
+        "scope": "主会",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "OpenReview / CMT",
+        "preprint": "allowed",
+        "preprint_note": "允许 arXiv 预印本，审稿期间可更新版本",
+        "code": "encouraged",
+        "code_note": "鼓励提交代码；可复现性会影响评分",
+        "access": "registration",
+        "apc_note": "无 APC，需交会议注册费",
+        "attendance": "in-person",
+        "rounds": "2–3 轮",
+        "acceptance_note": "近年约 20–30%，逐年波动"
+      },
+      "official_url": "https://iccv.thecvf.com/",
+      "cfp_url": "https://iccv.thecvf.com/",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2027-03-20",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://iccv.thecvf.com/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-10-20",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 10 月"
+        }
+      ],
+      "materials": [
+        "全文（8 页）",
+        "补充材料",
+        "双盲匿名版"
+      ],
+      "page_limit": "8 pages + refs",
+      "blind": "double",
+      "notes": "两年一届（奇数年）"
+    },
+    {
+      "id": "neurips-2027",
+      "name": "Conference on Neural Information Processing Systems",
+      "abbr": "NeurIPS",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "ai",
+        "general"
+      ],
+      "tier": {
+        "ccf": "A",
+        "cas": null
+      },
+      "topics": [
+        "生成模型",
+        "表示学习",
+        "评测基准",
+        "因果"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "9 页"
+        },
+        {
+          "name": "Datasets & Benchmarks",
+          "kind": "dataset",
+          "note": "数据集/基准专轨"
+        },
+        {
+          "name": "Workshops",
+          "kind": "workshop",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 26%",
+        "percent": 26.0,
+        "scope": "主会",
+        "year": "2024",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "OpenReview / CMT",
+        "preprint": "allowed",
+        "preprint_note": "允许 arXiv 预印本，审稿期间可更新版本",
+        "code": "encouraged",
+        "code_note": "鼓励提交代码；可复现性会影响评分",
+        "access": "registration",
+        "apc_note": "无 APC，需交会议注册费",
+        "attendance": "in-person",
+        "rounds": "2–3 轮",
+        "acceptance_note": "近年约 20–30%，逐年波动"
+      },
+      "official_url": "https://neurips.cc/",
+      "cfp_url": "https://neurips.cc/",
+      "deadlines": [
+        {
+          "kind": "abstract",
+          "date": "2027-05-12",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://neurips.cc/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "full_paper",
+          "date": "2027-05-19",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://neurips.cc/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-12-06",
+          "time": "09:00",
+          "tz": "PST",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 12 月"
+        }
+      ],
+      "materials": [
+        "摘要",
+        "全文（9 页）",
+        "补充材料"
+      ],
+      "page_limit": "9 pages + refs",
+      "blind": "double",
+      "notes": "Datasets & Benchmarks track 适合医学数据集工作"
+    },
+    {
+      "id": "icml-2027",
+      "name": "International Conference on Machine Learning",
+      "abbr": "ICML",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "ai",
+        "general"
+      ],
+      "tier": {
+        "ccf": "A",
+        "cas": null
+      },
+      "topics": [
+        "理论学习",
+        "优化",
+        "生成模型"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "8 页"
+        },
+        {
+          "name": "Workshops",
+          "kind": "workshop",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 27%",
+        "percent": 27.0,
+        "scope": "主会",
+        "year": "2024",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "OpenReview / CMT",
+        "preprint": "allowed",
+        "preprint_note": "允许 arXiv 预印本，审稿期间可更新版本",
+        "code": "encouraged",
+        "code_note": "鼓励提交代码；可复现性会影响评分",
+        "access": "registration",
+        "apc_note": "无 APC，需交会议注册费",
+        "attendance": "in-person",
+        "rounds": "2–3 轮",
+        "acceptance_note": "近年约 20–30%，逐年波动"
+      },
+      "official_url": "https://icml.cc/",
+      "cfp_url": "https://icml.cc/",
+      "deadlines": [
+        {
+          "kind": "abstract",
+          "date": "2027-01-21",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://icml.cc/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "full_paper",
+          "date": "2027-01-28",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://icml.cc/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-07-12",
+          "time": "09:00",
+          "tz": "CET",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 7 月"
+        }
+      ],
+      "materials": [
+        "摘要",
+        "全文（8 页）",
+        "补充材料"
+      ],
+      "page_limit": "8 pages + refs",
+      "blind": "double",
+      "notes": "理论/表征学习；医学应用需强方法贡献"
+    },
+    {
+      "id": "iclr-2027",
+      "name": "International Conference on Learning Representations",
+      "abbr": "ICLR",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "ai",
+        "general"
+      ],
+      "tier": {
+        "ccf": "A",
+        "cas": null
+      },
+      "topics": [
+        "表示学习",
+        "生成模型",
+        "评测"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "9 页，公开评审"
+        },
+        {
+          "name": "Workshops",
+          "kind": "workshop",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 31%",
+        "percent": 31.0,
+        "scope": "主会",
+        "year": "2024",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "OpenReview / CMT",
+        "preprint": "allowed",
+        "preprint_note": "允许 arXiv 预印本，审稿期间可更新版本",
+        "code": "encouraged",
+        "code_note": "鼓励提交代码；可复现性会影响评分",
+        "access": "registration",
+        "apc_note": "无 APC，需交会议注册费",
+        "attendance": "in-person",
+        "rounds": "2–3 轮",
+        "acceptance_note": "近年约 20–30%，逐年波动"
+      },
+      "official_url": "https://iclr.cc/",
+      "cfp_url": "https://iclr.cc/",
+      "deadlines": [
+        {
+          "kind": "abstract",
+          "date": "2026-09-18",
+          "time": "23:59",
+          "tz": "AoE",
+          "source_status": "verified",
+          "note": "自动核验：读取官网原文核对（官网 CFP 页核对：摘要 2026-09-18（此前的 2027 年为）",
+          "source": {
+            "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+            "checked_at": "2026-11-04T18:19:35+08:00",
+            "snippet": "Abstract deadline Sep 18, 2026 AOE; Paper deadline Sep 25, 2026 AOE"
+          }
+        },
+        {
+          "kind": "full_paper",
+          "date": "2026-09-25",
+          "time": "23:59",
+          "tz": "AoE",
+          "source_status": "verified",
+          "note": "自动核验：读取官网原文核对（官网 CFP 页核对：全文 2026-09-25（此前的 2027 年为）",
+          "source": {
+            "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+            "checked_at": "2026-11-04T18:19:35+08:00",
+            "snippet": "Abstract deadline Sep 18, 2026 AOE; Paper deadline Sep 25, 2026 AOE"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2028-04-24",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 4 月"
+        }
+      ],
+      "materials": [
+        "摘要",
+        "全文（9 页）",
+        "OpenReview 回复"
+      ],
+      "page_limit": "9 pages + refs",
+      "blind": "double",
+      "notes": "公开评审，rebuttal 影响大"
+    },
+    {
+      "id": "aaai-2027",
+      "name": "AAAI Conference on Artificial Intelligence",
+      "abbr": "AAAI",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "ai",
+        "general"
+      ],
+      "tier": {
+        "ccf": "A",
+        "cas": null
+      },
+      "topics": [
+        "应用 AI",
+        "知识表示",
+        "多智能体"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "7 页"
+        },
+        {
+          "name": "Special Tracks",
+          "kind": "special",
+          "note": "AI for Social Impact 等"
+        }
+      ],
+      "acceptance": {
+        "display": "约 20%",
+        "percent": 20.0,
+        "scope": "主会",
+        "year": "2024",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "OpenReview / CMT",
+        "preprint": "allowed",
+        "preprint_note": "允许 arXiv 预印本，审稿期间可更新版本",
+        "code": "encouraged",
+        "code_note": "鼓励提交代码；可复现性会影响评分",
+        "access": "registration",
+        "apc_note": "无 APC，需交会议注册费",
+        "attendance": "in-person",
+        "rounds": "2–3 轮",
+        "acceptance_note": "近年约 20–30%，逐年波动"
+      },
+      "official_url": "https://aaai.org/conference/aaai/",
+      "cfp_url": "https://aaai.org/conference/aaai/",
+      "deadlines": [
+        {
+          "kind": "abstract",
+          "date": "2026-07-21",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "aggregator",
+          "note": "第三方来源 CCFDDL（https://aaai.org/conference/aaai/aaai-27/），官网未见/未公布，日期 与推测一致 2026-07-21",
+          "source": {
+            "url": "https://aaai.org/conference/aaai/aaai-27/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "full_paper",
+          "date": "2026-07-28",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "aggregator",
+          "note": "第三方来源 CCFDDL（https://aaai.org/conference/aaai/aaai-27/），官网未见/未公布，日期 与推测一致 2026-07-28",
+          "source": {
+            "url": "https://aaai.org/conference/aaai/aaai-27/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-02-10",
+          "time": "09:00",
+          "tz": "PST",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 2 月"
+        }
+      ],
+      "materials": [
+        "摘要",
+        "全文（7 页）",
+        "补充材料"
+      ],
+      "page_limit": "7 pages + refs",
+      "blind": "double",
+      "notes": "接受面稍宽，应用型 AI 的稳妥选择"
+    },
+    {
+      "id": "ijcai-2027",
+      "name": "International Joint Conference on Artificial Intelligence",
+      "abbr": "IJCAI",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "ai",
+        "general"
+      ],
+      "tier": {
+        "ccf": "A",
+        "cas": null
+      },
+      "topics": [
+        "应用 AI",
+        "多模态",
+        "规划与决策"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "7 页"
+        },
+        {
+          "name": "Special Tracks",
+          "kind": "special",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 15%",
+        "percent": 15.0,
+        "scope": "主会",
+        "year": "2024",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "OpenReview / CMT",
+        "preprint": "allowed",
+        "preprint_note": "允许 arXiv 预印本，审稿期间可更新版本",
+        "code": "encouraged",
+        "code_note": "鼓励提交代码；可复现性会影响评分",
+        "access": "registration",
+        "apc_note": "无 APC，需交会议注册费",
+        "attendance": "in-person",
+        "rounds": "2–3 轮",
+        "acceptance_note": "近年约 20–30%，逐年波动"
+      },
+      "official_url": "https://www.ijcai.org/",
+      "cfp_url": "https://www.ijcai.org/",
+      "deadlines": [
+        {
+          "kind": "abstract",
+          "date": "2027-01-04",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "aggregator",
+          "note": "第三方来源 CCFDDL（https://2027.ijcai.org/），官网未见/未公布，日期 与推测一致 2027-01-04",
+          "source": {
+            "url": "https://2027.ijcai.org/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "full_paper",
+          "date": "2027-01-11",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "verified",
+          "note": "自动核验（2026-11-04T20:25）官网日期一致",
+          "source": {
+            "url": "https://www.ijcai.org/",
+            "checked_at": "2026-11-04T20:25:54+08:00",
+            "snippet": "TANT DATES Abstract Submission Deadline: January 4, 2027 Full Paper Submission Deadline: January 11, 2027 Paper Notification: April 21, 2027 All deadlines are at 23:59 AoE (Anywhere on Earth). QUICK ACCESS Call fo"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-08-16",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 8 月"
+        }
+      ],
+      "materials": [
+        "摘要",
+        "全文（7 页）",
+        "补充材料"
+      ],
+      "page_limit": "7 pages + refs",
+      "blind": "double",
+      "notes": "CCF-A，应用型工作友好"
+    },
+    {
+      "id": "mm-2027",
+      "name": "ACM International Conference on Multimedia",
+      "abbr": "ACM MM",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "ai",
+        "cv",
+        "nlp"
+      ],
+      "tier": {
+        "ccf": "A",
+        "cas": null
+      },
+      "topics": [
+        "多模态融合",
+        "视频理解",
+        "跨模态检索",
+        "生成"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "8 页 ACM"
+        },
+        {
+          "name": "主题领域 Track",
+          "kind": "special",
+          "note": "医学多媒体等"
+        },
+        {
+          "name": "Brave New Ideas",
+          "kind": "special",
+          "note": "高风险高回报"
+        }
+      ],
+      "acceptance": {
+        "display": "约 25%",
+        "percent": 25.0,
+        "scope": "主会",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "OpenReview / CMT",
+        "preprint": "allowed",
+        "preprint_note": "允许 arXiv 预印本，审稿期间可更新版本",
+        "code": "encouraged",
+        "code_note": "鼓励提交代码；可复现性会影响评分",
+        "access": "registration",
+        "apc_note": "无 APC，需交会议注册费",
+        "attendance": "in-person",
+        "rounds": "2–3 轮",
+        "acceptance_note": "近年约 20–30%，逐年波动"
+      },
+      "official_url": "https://www.acmmm.org/",
+      "cfp_url": "https://www.acmmm.org/",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2027-04-10",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://www.acmmm.org/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "supplementary",
+          "date": "2027-04-17",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://www.acmmm.org/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-10-25",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 10 月"
+        }
+      ],
+      "materials": [
+        "全文（8 页）",
+        "补充材料",
+        "双盲匿名版"
+      ],
+      "page_limit": "8 pages + refs, ACM",
+      "blind": "double",
+      "notes": "多模态融合主场，医学多媒体可投"
+    },
+    {
+      "id": "acl-2027",
+      "name": "Annual Meeting of the Association for Computational Linguistics",
+      "abbr": "ACL",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "nlp",
+        "ai"
+      ],
+      "tier": {
+        "ccf": "A",
+        "cas": null
+      },
+      "topics": [
+        "临床 NLP",
+        "报告生成",
+        "评测"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "8 页，ARR"
+        },
+        {
+          "name": "Findings",
+          "kind": "findings",
+          "note": "次优论文通道"
+        }
+      ],
+      "acceptance": {
+        "display": "约 22%",
+        "percent": 22.0,
+        "scope": "主会",
+        "year": "2024",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "OpenReview (ARR)",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本；ARR 滚动评审，注意提交窗口",
+        "code": "encouraged",
+        "code_note": "鼓励开源代码与数据",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费",
+        "attendance": "in-person",
+        "rounds": "ARR + 会议 2 段",
+        "acceptance_note": "主会与 Findings 合计接收面较宽"
+      },
+      "official_url": "https://www.aclweb.org/",
+      "cfp_url": "https://www.aclweb.org/",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2027-01-04",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "verified",
+          "note": "自动核验（2026-11-04T20:26）官网日期一致",
+          "source": {
+            "url": "https://2027.aclweb.org/",
+            "checked_at": "2026-11-04T20:26:22+08:00",
+            "snippet": ", 2026 The official ACL 2027 website is launched. Important Dates ARR submission deadline January 4, 2027 Commitment deadline TBA Notification of acceptance TBA Camera-ready deadline TBA Tutorials August 17, 2027 Wo"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-07-20",
+          "time": "09:00",
+          "tz": "CET",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 7 月"
+        }
+      ],
+      "materials": [
+        "全文（8 页）",
+        "补充材料",
+        "ARR 提交"
+      ],
+      "page_limit": "8 pages + refs",
+      "blind": "double",
+      "notes": "放射报告生成/临床文本理解"
+    },
+    {
+      "id": "emnlp-2027",
+      "name": "Conference on Empirical Methods in Natural Language Processing",
+      "abbr": "EMNLP",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "nlp",
+        "ai"
+      ],
+      "tier": {
+        "ccf": "B",
+        "cas": null
+      },
+      "topics": [
+        "临床 NLP",
+        "报告生成"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "8 页"
+        },
+        {
+          "name": "Findings",
+          "kind": "findings",
+          "note": ""
+        },
+        {
+          "name": "Industry Track",
+          "kind": "industry",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 24%",
+        "percent": 24.0,
+        "scope": "主会",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "OpenReview (ARR)",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本；ARR 滚动评审，注意提交窗口",
+        "code": "encouraged",
+        "code_note": "鼓励开源代码与数据",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费",
+        "attendance": "in-person",
+        "rounds": "ARR + 会议 2 段",
+        "acceptance_note": "主会与 Findings 合计接收面较宽"
+      },
+      "official_url": "https://2027.emnlp.org/",
+      "cfp_url": "https://2027.emnlp.org/",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2027-05-15",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "manual",
+          "note": "2027.emnlp.org 目前只有占位页（正文 104 字符），2027 官网尚未上线；请在官网确认后于详情页「人工核验」录入",
+          "source": {
+            "url": "https://2027.emnlp.org/",
+            "checked_at": "2026-11-05T15:30:54+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-11-08",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 11 月"
+        }
+      ],
+      "materials": [
+        "全文（8 页）",
+        "补充材料"
+      ],
+      "page_limit": "8 pages + refs",
+      "blind": "double",
+      "notes": "与 ACL 共用 ARR",
+      "verify_after": "2026-11-19"
+    },
+    {
+      "id": "icassp-2027",
+      "name": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+      "abbr": "ICASSP",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "ai",
+        "medical-imaging"
+      ],
+      "tier": {
+        "ccf": "B",
+        "cas": null
+      },
+      "topics": [
+        "医学影像",
+        "语音",
+        "信号处理"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "4 页"
+        },
+        {
+          "name": "Special Sessions",
+          "kind": "special",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 48%",
+        "percent": 48.0,
+        "scope": "主会",
+        "year": "2024",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "CMT / EasyChair",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本",
+        "code": "optional",
+        "code_note": "4 页短文，代码非强制",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费",
+        "attendance": "in-person",
+        "rounds": "2 轮",
+        "acceptance_note": "IEEE 信号处理系会议，接收面较宽"
+      },
+      "official_url": "https://2027.ieeeicassp.org/",
+      "cfp_url": "https://2027.ieeeicassp.org/",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2026-09-23",
+          "time": "23:59",
+          "tz": "AoE",
+          "source_status": "verified",
+          "note": "自动核验：读取官网原文核对（官网 CFP 页核对：全文 2026-09-23（时区官网未标注，按惯例）",
+          "source": {
+            "url": "https://2027.ieeeicassp.org/call-for-papers/",
+            "checked_at": "2026-11-04T18:19:35+08:00",
+            "snippet": "Full Paper Submission Deadline September 23, 2026"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-05-09",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 5 月"
+        }
+      ],
+      "materials": [
+        "4 页全文"
+      ],
+      "page_limit": "4 pages + 1 ref",
+      "blind": "single",
+      "notes": "门槛较低，适合阶段性成果"
+    },
+    {
+      "id": "icip-2027",
+      "name": "IEEE International Conference on Image Processing",
+      "abbr": "ICIP",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "cv",
+        "medical-imaging"
+      ],
+      "tier": {
+        "ccf": "C",
+        "cas": null
+      },
+      "topics": [
+        "图像处理",
+        "医学影像"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "4 页"
+        },
+        {
+          "name": "Special Sessions",
+          "kind": "special",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 50%",
+        "percent": 50.0,
+        "scope": "主会",
+        "year": "2024",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "CMT / EasyChair",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本",
+        "code": "optional",
+        "code_note": "4 页短文，代码非强制",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费",
+        "attendance": "in-person",
+        "rounds": "2 轮",
+        "acceptance_note": "IEEE 信号处理系会议，接收面较宽"
+      },
+      "official_url": "https://2027.ieeeicip.org/",
+      "cfp_url": "https://2027.ieeeicip.org/",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2027-03-31",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "aggregator",
+          "note": "第三方来源 CCFDDL（https://2027.ieeeicip.org/），官网未见/未公布，日期 与推测一致 2027-03-31",
+          "source": {
+            "url": "https://2027.ieeeicip.org/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-09-14",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 9 月"
+        }
+      ],
+      "materials": [
+        "4 页全文"
+      ],
+      "page_limit": "4 pages + refs",
+      "blind": "single",
+      "notes": "图像处理综合会，可作为保底"
+    },
+    {
+      "id": "chil-2027",
+      "name": "ACM Conference on Health, Inference, and Learning",
+      "abbr": "CHIL",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "clinical",
+        "ai"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": null
+      },
+      "topics": [
+        "临床验证",
+        "公平性",
+        "EHR",
+        "多模态融合"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "8 页 ACM"
+        },
+        {
+          "name": "Extended Abstracts",
+          "kind": "abstract",
+          "note": "非完整工作"
+        },
+        {
+          "name": "Clinical Translation",
+          "kind": "special",
+          "note": "重落地"
+        }
+      ],
+      "acceptance": {
+        "display": "约 30%",
+        "percent": 30.0,
+        "scope": "主会",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "CMT / EasyChair",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（涉及临床数据需伦理审批）",
+        "code": "encouraged",
+        "code_note": "重视数据与代码的可核验性",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费",
+        "attendance": "in-person",
+        "rounds": "2 轮",
+        "acceptance_note": "约 30–40%，临床转化类更看真实数据"
+      },
+      "official_url": "https://chil.ahli.cc/",
+      "cfp_url": "https://chil.ahli.cc/",
+      "deadlines": [
+        {
+          "kind": "abstract",
+          "date": "2027-01-12",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://chil.ahli.cc/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "full_paper",
+          "date": "2027-02-03",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "verified",
+          "note": "自动核验（2026-11-04T17:37）官网日期一致",
+          "source": {
+            "url": "https://chil.ahli.cc/submit/call-for-papers/",
+            "checked_at": "2026-11-04T17:37:13+08:00",
+            "snippet": "Review accounts created for all authorsFriday, January 15, 2027 Submissions dueWednesday, February 3, 2027 Bidding opens for reviewersEarly Feb 2027 Bidding closes for reviewersEarly to mid-Feb 2027 Reviews assignedW"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-05-20",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 5 月"
+        }
+      ],
+      "materials": [
+        "摘要",
+        "全文（8 页）",
+        "伦理/数据声明"
+      ],
+      "page_limit": "8 pages + refs, ACM",
+      "blind": "double",
+      "notes": "重真实临床数据、公平性、可部署"
+    },
+    {
+      "id": "mlhc-2027",
+      "name": "Machine Learning for Healthcare",
+      "abbr": "MLHC",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "clinical",
+        "ai"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": null
+      },
+      "topics": [
+        "临床决策",
+        "EHR",
+        "因果推断"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "8 页 PMLR"
+        }
+      ],
+      "acceptance": {
+        "display": "约 30%",
+        "percent": 30.0,
+        "scope": "主会",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "CMT / EasyChair",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（涉及临床数据需伦理审批）",
+        "code": "encouraged",
+        "code_note": "重视数据与代码的可核验性",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费",
+        "attendance": "in-person",
+        "rounds": "2 轮",
+        "acceptance_note": "约 30–40%，临床转化类更看真实数据"
+      },
+      "official_url": "https://www.mlforhc.org/",
+      "cfp_url": "https://www.mlforhc.org/",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2027-04-15",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://www.mlforhc.org/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-08-10",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 8 月"
+        }
+      ],
+      "materials": [
+        "全文（8 页）",
+        "临床影响说明"
+      ],
+      "page_limit": "8 pages, PMLR",
+      "blind": "double",
+      "notes": "小而精，临床合作导向"
+    },
+    {
+      "id": "ml4h-2027",
+      "name": "Symposium on Machine Learning for Health",
+      "abbr": "ML4H",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "clinical",
+        "ai"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": null
+      },
+      "topics": [
+        "数据集",
+        "评测基准",
+        "公平性"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "8 页"
+        },
+        {
+          "name": "Datasets",
+          "kind": "dataset",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 55%",
+        "percent": 55.0,
+        "scope": "主会",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "CMT / EasyChair",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（涉及临床数据需伦理审批）",
+        "code": "encouraged",
+        "code_note": "重视数据与代码的可核验性",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费",
+        "attendance": "in-person",
+        "rounds": "2 轮",
+        "acceptance_note": "约 30–40%，临床转化类更看真实数据"
+      },
+      "official_url": "https://ml4health.github.io/",
+      "cfp_url": "https://ml4health.github.io/",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2027-08-20",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://ml4health.github.io/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-11-15",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "与 NeurIPS 同期"
+        }
+      ],
+      "materials": [
+        "全文（8 页）"
+      ],
+      "page_limit": "8 pages + refs",
+      "blind": "double",
+      "notes": "收数据集、评测与负结果"
+    },
+    {
+      "id": "amia-2027",
+      "name": "AMIA Annual Symposium",
+      "abbr": "AMIA",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "clinical"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": null
+      },
+      "topics": [
+        "EHR",
+        "临床工作流",
+        "信息学"
+      ],
+      "tracks": [
+        {
+          "name": "Papers",
+          "kind": "main",
+          "note": "8 页"
+        },
+        {
+          "name": "Podium Abstracts",
+          "kind": "abstract",
+          "note": ""
+        },
+        {
+          "name": "Posters",
+          "kind": "poster",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 40%",
+        "percent": 40.0,
+        "scope": "Papers",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "CMT / EasyChair",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（涉及临床数据需伦理审批）",
+        "code": "encouraged",
+        "code_note": "重视数据与代码的可核验性",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费",
+        "attendance": "in-person",
+        "rounds": "2 轮",
+        "acceptance_note": "约 30–40%，临床转化类更看真实数据"
+      },
+      "official_url": "https://amia.org/",
+      "cfp_url": "https://amia.org/",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2027-03-16",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "manual",
+          "note": "amia.org 对云浏览器返回 Cloudflare 403（会话内人机验证无法通过，出口 IP 被判定为自动化）；请在官网确认后于详情页「人工核验」录入",
+          "source": {
+            "url": "https://amia.org/",
+            "checked_at": "2026-11-05T15:30:54+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-11-08",
+          "time": "09:00",
+          "tz": "PST",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 11 月"
+        }
+      ],
+      "materials": [
+        "全文（8 页）",
+        "IRB/伦理声明"
+      ],
+      "page_limit": "8 pages",
+      "blind": "single",
+      "notes": "医学信息学北美主会",
+      "verify_after": "2026-11-19"
+    },
+    {
+      "id": "ichi-2027",
+      "name": "IEEE International Conference on Healthcare Informatics",
+      "abbr": "ICHI",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "clinical",
+        "ai"
+      ],
+      "tier": {
+        "ccf": "B",
+        "cas": null
+      },
+      "topics": [
+        "健康信息学",
+        "可穿戴",
+        "临床 AI"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "8 页"
+        },
+        {
+          "name": "Short Papers",
+          "kind": "abstract",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 35%",
+        "percent": 35.0,
+        "scope": "主会",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "CMT / EasyChair",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（涉及临床数据需伦理审批）",
+        "code": "encouraged",
+        "code_note": "重视数据与代码的可核验性",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费",
+        "attendance": "in-person",
+        "rounds": "2 轮",
+        "acceptance_note": "约 30–40%，临床转化类更看真实数据"
+      },
+      "official_url": "https://ieee-ichi.org/",
+      "cfp_url": "https://ieee-ichi.org/",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2027-02-10",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "manual",
+          "note": "ieee-ichi.org 打开后正文仅 119 字符，2027 站点尚未上线；请在官网确认后于详情页「人工核验」录入",
+          "source": {
+            "url": "https://ieee-ichi.org/",
+            "checked_at": "2026-11-05T15:30:54+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-06-15",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 6 月"
+        }
+      ],
+      "materials": [
+        "全文（8 页）"
+      ],
+      "page_limit": "8 pages",
+      "blind": "double",
+      "notes": "信息学+AI，接受率友好",
+      "verify_after": "2026-11-19"
+    },
+    {
+      "id": "bibm-2027",
+      "name": "IEEE International Conference on Bioinformatics and Biomedicine",
+      "abbr": "BIBM",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "bioinformatics",
+        "clinical",
+        "ai"
+      ],
+      "tier": {
+        "ccf": "B",
+        "cas": null
+      },
+      "topics": [
+        "影像组学",
+        "组学融合",
+        "生物信息"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "8 页"
+        },
+        {
+          "name": "Workshops",
+          "kind": "workshop",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 30%",
+        "percent": 30.0,
+        "scope": "主会",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "CMT / EasyChair",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（涉及临床数据需伦理审批）",
+        "code": "encouraged",
+        "code_note": "重视数据与代码的可核验性",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费",
+        "attendance": "in-person",
+        "rounds": "2 轮",
+        "acceptance_note": "约 30–40%，临床转化类更看真实数据"
+      },
+      "official_url": "https://ieeebibm.org/",
+      "cfp_url": "https://ieeebibm.org/",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2027-07-15",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "unpublished",
+          "note": "已查官网页面（2026-11-05）未见该截止日期，保留推测值",
+          "source": {
+            "url": "https://ieeebibm.org/",
+            "checked_at": "2026-11-05T16:36:03+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-11-01",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 11 月"
+        }
+      ],
+      "materials": [
+        "全文（8 页）"
+      ],
+      "page_limit": "8 pages",
+      "blind": "single",
+      "notes": "组学+影像融合（imaging genomics）对口"
+    },
+    {
+      "id": "bcb-2027",
+      "name": "ACM Intl Conf on Bioinformatics, Computational Biology and Health Informatics",
+      "abbr": "ACM BCB",
+      "edition": "2027",
+      "type": "conference",
+      "rolling": false,
+      "areas": [
+        "bioinformatics",
+        "clinical"
+      ],
+      "tier": {
+        "ccf": "B",
+        "cas": null
+      },
+      "topics": [
+        "生物信息",
+        "健康信息"
+      ],
+      "tracks": [
+        {
+          "name": "主会 Main",
+          "kind": "main",
+          "note": "10 页"
+        },
+        {
+          "name": "Workshops",
+          "kind": "workshop",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 30%",
+        "percent": 30.0,
+        "scope": "主会",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "CMT / EasyChair",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（涉及临床数据需伦理审批）",
+        "code": "encouraged",
+        "code_note": "重视数据与代码的可核验性",
+        "access": "registration",
+        "apc_note": "无 APC，需交注册费",
+        "attendance": "in-person",
+        "rounds": "2 轮",
+        "acceptance_note": "约 30–40%，临床转化类更看真实数据"
+      },
+      "official_url": "https://dl.acm.org/conference/bcb",
+      "cfp_url": "https://dl.acm.org/conference/bcb",
+      "deadlines": [
+        {
+          "kind": "full_paper",
+          "date": "2027-05-01",
+          "time": "23:59",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "manual",
+          "note": "dl.acm.org 对云浏览器返回 Cloudflare 403；请在官网确认后于详情页「人工核验」录入",
+          "source": {
+            "url": "https://dl.acm.org/conference/bcb",
+            "checked_at": "2026-11-05T15:30:54+08:00"
+          }
+        },
+        {
+          "kind": "conference",
+          "date": "2027-08-25",
+          "time": "09:00",
+          "tz": "AoE",
+          "track": "主会",
+          "source_status": "predicted",
+          "note": "历年 8 月"
+        }
+      ],
+      "materials": [
+        "全文（10 页）"
+      ],
+      "page_limit": "10 pages, ACM",
+      "blind": "double",
+      "notes": "生物信息+健康信息综合",
+      "verify_after": "2026-11-19"
+    },
+    {
+      "id": "media",
+      "name": "Medical Image Analysis",
+      "abbr": "MedIA",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "medical-imaging",
+        "ai"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "一区"
+      },
+      "topics": [
+        "医学影像分析",
+        "多模态融合",
+        "基础模型"
+      ],
+      "tracks": [
+        {
+          "name": "Regular Paper",
+          "kind": "main",
+          "note": "滚动"
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        },
+        {
+          "name": "Special Issue",
+          "kind": "special",
+          "note": "专刊有独立截稿日"
+        }
+      ],
+      "acceptance": {
+        "display": "约 13%",
+        "percent": 13.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "Editorial Manager",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（Elsevier 政策，需声明）",
+        "code": "encouraged",
+        "code_note": "鼓励提供代码/数据",
+        "access": "subscription",
+        "apc_note": "订阅制；选择 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2–3 轮",
+        "acceptance_note": "首轮决定通常 2–3 个月"
+      },
+      "official_url": "https://www.sciencedirect.com/journal/medical-image-analysis",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "补充材料",
+        "数据可用性声明"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "医学影像分析第一刊；MICCAI 长文扩展的常见归宿",
+      "review_cycle_weeks": 10,
+      "identity": {
+        "title": "Medical Image Analysis",
+        "publisher": "Elsevier",
+        "issn": [
+          "1361-8415"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "metrics": {
+        "impact_factor": "14.000",
+        "review_cycle": "平均9.4周",
+        "acceptance": "约25%",
+        "open_access": "No",
+        "gold_oa_share": "34.49%",
+        "official_url": "https://www.journals.elsevier.com/medical-image-analysis 投稿规范预检（避免 Desk Rejection） 开始检查>>",
+        "submission_url": "https://www.editorialmanager.com/MEDIA AI辅助快速完成投稿信初稿 一键撰写投稿信>>",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=5790&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "third_party"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00"
+    },
+    {
+      "id": "tmi",
+      "name": "IEEE Transactions on Medical Imaging",
+      "abbr": "TMI",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "medical-imaging",
+        "ai"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "一区"
+      },
+      "topics": [
+        "影像重建",
+        "影像分割",
+        "多模态融合"
+      ],
+      "tracks": [
+        {
+          "name": "Regular Paper",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        },
+        {
+          "name": "Special Issue",
+          "kind": "special",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 18%",
+        "percent": 18.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "ScholarOne",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（投稿时声明）",
+        "code": "encouraged",
+        "code_note": "建议附代码链接",
+        "access": "subscription",
+        "apc_note": "订阅制；可选 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2 轮",
+        "acceptance_note": "TMI 竞争最激烈"
+      },
+      "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "补充材料",
+        "代码链接"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "方法学最主流，中科院一区；注重可复现性",
+      "review_cycle_weeks": 8,
+      "identity": {
+        "title": "IEEE Transactions on Medical Imaging",
+        "publisher": "Institute of Electrical and Electronics Engineers",
+        "issn": [
+          "0278-0062",
+          "1558-254X"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "metrics": {
+        "impact_factor": "12.400",
+        "review_cycle": "平均5.4个月",
+        "acceptance": "很难",
+        "open_access": "No",
+        "gold_oa_share": "10.40%",
+        "official_url": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42 投稿规范预检（避免 Desk Rejection） 开始检查>>",
+        "submission_url": "http://mc.manuscriptcentral.com/tmi-ieee AI辅助快速完成投稿信初稿 一键撰写投稿信>>",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=3401&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "third_party"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00"
+    },
+    {
+      "id": "jbhi",
+      "name": "IEEE Journal of Biomedical and Health Informatics",
+      "abbr": "JBHI",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "clinical",
+        "ai"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "二区"
+      },
+      "topics": [
+        "健康信息学",
+        "EHR",
+        "可穿戴"
+      ],
+      "tracks": [
+        {
+          "name": "Regular Paper",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 22%",
+        "percent": 22.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "ScholarOne",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（投稿时声明）",
+        "code": "encouraged",
+        "code_note": "建议附代码链接",
+        "access": "subscription",
+        "apc_note": "订阅制；可选 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2 轮",
+        "acceptance_note": "TMI 竞争最激烈"
+      },
+      "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "补充材料"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "健康信息学主力刊，接受面宽",
+      "review_cycle_weeks": 8,
+      "identity": {
+        "title": "IEEE Journal of Biomedical and Health Informatics",
+        "publisher": "Institute of Electrical and Electronics Engineers",
+        "issn": [
+          "2168-2194",
+          "2168-2208"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "metrics": {
+        "impact_factor": "7.700",
+        "review_cycle": "",
+        "acceptance": "",
+        "open_access": "No",
+        "gold_oa_share": "6.40%",
+        "official_url": "http://jbhi.embs.org/ 投稿规范预检（避免 Desk Rejection） 开始检查>>",
+        "submission_url": "https://mc.manuscriptcentral.com/jbhi-embs AI辅助快速完成投稿信初稿 一键撰写投稿信>>",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=9464&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "third_party"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00"
+    },
+    {
+      "id": "tbme",
+      "name": "IEEE Transactions on Biomedical Engineering",
+      "abbr": "TBME",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "medical-imaging",
+        "clinical"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "二区"
+      },
+      "topics": [
+        "生物医学信号",
+        "影像"
+      ],
+      "tracks": [
+        {
+          "name": "Regular Paper",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 25%",
+        "percent": 25.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "ScholarOne",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（投稿时声明）",
+        "code": "encouraged",
+        "code_note": "建议附代码链接",
+        "access": "subscription",
+        "apc_note": "订阅制；可选 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2 轮",
+        "acceptance_note": "TMI 竞争最激烈"
+      },
+      "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "补充材料"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "生物医学工程老牌刊，偏方法+生理意义",
+      "review_cycle_weeks": 10,
+      "identity": {
+        "title": "IEEE Transactions on Biomedical Engineering",
+        "publisher": "Institute of Electrical and Electronics Engineers",
+        "issn": [
+          "0018-9294",
+          "1558-2531"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "metrics": {
+        "impact_factor": "4.400",
+        "review_cycle": "平均3.0个月",
+        "acceptance": "容易",
+        "open_access": "No",
+        "gold_oa_share": "14.13%",
+        "official_url": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10 投稿规范预检（避免 Desk Rejection） 开始检查>>",
+        "submission_url": "http://mc.manuscriptcentral.com/embs-ieee AI辅助快速完成投稿信初稿 一键撰写投稿信>>",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=3367&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "third_party"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00"
+    },
+    {
+      "id": "radiology",
+      "name": "Radiology",
+      "abbr": "Radiology",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "clinical",
+        "medical-imaging"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "一区"
+      },
+      "topics": [
+        "临床影像",
+        "诊断准确性",
+        "AI 验证"
+      ],
+      "tracks": [
+        {
+          "name": "Original Research",
+          "kind": "main",
+          "note": "需 STARD/CLAIM"
+        },
+        {
+          "name": "Research Letter",
+          "kind": "short",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 9%",
+        "percent": 9.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "ScholarOne",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本，需披露",
+        "code": "encouraged",
+        "code_note": "需 CLAIM/STARD 清单；数据声明是常见退稿点",
+        "access": "subscription",
+        "apc_note": "订阅制；可选 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2 轮",
+        "acceptance_note": "Radiology 拒稿率高，临床终点要讲清楚"
+      },
+      "official_url": "https://pubs.rsna.org/journal/radiology",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "STARD/CLAIM 清单",
+        "数据声明"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "放射学绝对顶刊，影像 AI 的权威背书",
+      "review_cycle_weeks": 6,
+      "identity": {
+        "title": "Radiology",
+        "publisher": "Radiological Society of North America",
+        "issn": [
+          "0033-8419",
+          "1527-1315"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "metrics": {
+        "impact_factor": "20.100",
+        "review_cycle": "",
+        "acceptance": "",
+        "open_access": "No",
+        "gold_oa_share": "17.39%",
+        "official_url": "",
+        "submission_url": "",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=39823&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "third_party"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00"
+    },
+    {
+      "id": "radiology-ai",
+      "name": "Radiology: Artificial Intelligence",
+      "abbr": "Radiology AI",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "clinical",
+        "medical-imaging",
+        "ai"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "二区"
+      },
+      "topics": [
+        "临床 AI",
+        "外部验证",
+        "数据集"
+      ],
+      "tracks": [
+        {
+          "name": "Original Research",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        },
+        {
+          "name": "Letter",
+          "kind": "short",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 15%",
+        "percent": 15.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "ScholarOne",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本，需披露",
+        "code": "encouraged",
+        "code_note": "需 CLAIM/STARD 清单；数据声明是常见退稿点",
+        "access": "subscription",
+        "apc_note": "订阅制；可选 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2 轮",
+        "acceptance_note": "Radiology 拒稿率高，临床终点要讲清楚"
+      },
+      "official_url": "https://pubs.rsna.org/journal/ai",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "CLAIM 清单",
+        "代码声明"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "RSNA 的 AI 子刊",
+      "review_cycle_weeks": 8,
+      "identity": {
+        "title": "Radiology Artificial Intelligence",
+        "publisher": "Radiological Society of North America",
+        "issn": [
+          "2638-6100"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00"
+    },
+    {
+      "id": "eur-radiology",
+      "name": "European Radiology",
+      "abbr": "Eur Radiol",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "clinical",
+        "medical-imaging"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "一区"
+      },
+      "topics": [
+        "临床影像",
+        "AI"
+      ],
+      "tracks": [
+        {
+          "name": "Original Research",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 20%",
+        "percent": 20.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "ScholarOne",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本，需披露",
+        "code": "encouraged",
+        "code_note": "需 CLAIM/STARD 清单；数据声明是常见退稿点",
+        "access": "subscription",
+        "apc_note": "订阅制；可选 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2 轮",
+        "acceptance_note": "Radiology 拒稿率高，临床终点要讲清楚"
+      },
+      "official_url": "https://link.springer.com/journal/330",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "STARD 清单"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "欧洲放射学会刊",
+      "review_cycle_weeks": 8,
+      "identity": {
+        "title": "European Radiology",
+        "publisher": "Springer-Verlag",
+        "issn": [
+          "0938-7994",
+          "1432-1084"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "6.000",
+        "review_cycle": "较快,2-4周",
+        "acceptance": "较难",
+        "open_access": "No",
+        "gold_oa_share": "40.04%",
+        "official_url": "https://link.springer.com/journal/330",
+        "submission_url": "https://www.editorialmanager.com/eura/",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=2723&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:22:20+08:00",
+        "status": "third_party"
+      }
+    },
+    {
+      "id": "npj-digital-medicine",
+      "name": "npj Digital Medicine",
+      "abbr": "npj Digit Med",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "clinical",
+        "ai"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "一区"
+      },
+      "topics": [
+        "数字健康",
+        "临床验证",
+        "算法监管"
+      ],
+      "tracks": [
+        {
+          "name": "Article",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        },
+        {
+          "name": "Brief Communication",
+          "kind": "short",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 15%",
+        "percent": 15.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "Snapp / Editorial Manager",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本，需披露并遵守媒体禁发期",
+        "code": "required",
+        "code_note": "需代码与数据可用性声明，否则易被退回",
+        "access": "open",
+        "apc_note": "开放获取，需 APC（数千美元级，以官网为准）",
+        "attendance": "n/a",
+        "rounds": "2–3 轮",
+        "acceptance_note": "门槛高，重临床影响与统计严谨性"
+      },
+      "official_url": "https://www.nature.com/npjdigitalmed/",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "伦理声明",
+        "数据声明"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "开放获取，审稿快",
+      "review_cycle_weeks": 8,
+      "identity": {
+        "title": "npj Digital Medicine",
+        "publisher": "Springer Science and Business Media LLC",
+        "issn": [
+          "2398-6352"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "18.000",
+        "review_cycle": "15 Weeks",
+        "acceptance": "",
+        "open_access": "Yes",
+        "gold_oa_share": "100.00%",
+        "official_url": "https://www.nature.com/npjdigitalmed/",
+        "submission_url": "",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=11136&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:22:20+08:00",
+        "status": "third_party"
+      }
+    },
+    {
+      "id": "nature-medicine",
+      "name": "Nature Medicine",
+      "abbr": "Nat Med",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "clinical",
+        "ai"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "一区"
+      },
+      "topics": [
+        "临床转化",
+        "前瞻性验证",
+        "多中心"
+      ],
+      "tracks": [
+        {
+          "name": "Article",
+          "kind": "main",
+          "note": "重前瞻性/多中心"
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        },
+        {
+          "name": "Comment",
+          "kind": "comment",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 8%",
+        "percent": 8.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "Snapp / Editorial Manager",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本，需披露并遵守媒体禁发期",
+        "code": "required",
+        "code_note": "需代码与数据可用性声明，否则易被退回",
+        "access": "open",
+        "apc_note": "开放获取，需 APC（数千美元级，以官网为准）",
+        "attendance": "n/a",
+        "rounds": "2–3 轮",
+        "acceptance_note": "门槛高，重临床影响与统计严谨性"
+      },
+      "official_url": "https://www.nature.com/nm/",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "前瞻性验证",
+        "伦理批件"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "必须前瞻性/多中心验证；纯回顾性很难",
+      "review_cycle_weeks": 12,
+      "identity": {
+        "title": "Nature Medicine",
+        "publisher": "Springer Science and Business Media LLC",
+        "issn": [
+          "1078-8956",
+          "1546-170X"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "52.300",
+        "review_cycle": "平均1.0个月",
+        "acceptance": "约15%",
+        "open_access": "No",
+        "gold_oa_share": "62.31%",
+        "official_url": "https://www.nature.com/nm/",
+        "submission_url": "https://mts-nmed.nature.com/",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=6063&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:22:20+08:00",
+        "status": "third_party"
+      }
+    },
+    {
+      "id": "nmi",
+      "name": "Nature Machine Intelligence",
+      "abbr": "Nat Mach Intell",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "ai",
+        "clinical"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "一区"
+      },
+      "topics": [
+        "方法创新",
+        "基础模型"
+      ],
+      "tracks": [
+        {
+          "name": "Article",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        },
+        {
+          "name": "Perspective",
+          "kind": "comment",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 9%",
+        "percent": 9.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "Snapp / Editorial Manager",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本，需披露并遵守媒体禁发期",
+        "code": "required",
+        "code_note": "需代码与数据可用性声明，否则易被退回",
+        "access": "open",
+        "apc_note": "开放获取，需 APC（数千美元级，以官网为准）",
+        "attendance": "n/a",
+        "rounds": "2–3 轮",
+        "acceptance_note": "门槛高，重临床影响与统计严谨性"
+      },
+      "official_url": "https://www.nature.com/natmachintell/",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "代码/数据",
+        "伦理声明"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "方法+影响力的平衡点",
+      "review_cycle_weeks": 12,
+      "identity": {
+        "title": "Nature Machine Intelligence",
+        "publisher": "Springer Science and Business Media LLC",
+        "issn": [
+          "2522-5839"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "29.800",
+        "review_cycle": "",
+        "acceptance": "",
+        "open_access": "No",
+        "gold_oa_share": "37.97%",
+        "official_url": "https://www.nature.com/natmachintell/",
+        "submission_url": "https://mts-natmachintell.nature.com/",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=11172&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:22:20+08:00",
+        "status": "third_party"
+      }
+    },
+    {
+      "id": "lancet-dh",
+      "name": "The Lancet Digital Health",
+      "abbr": "Lancet Digit Health",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "clinical",
+        "ai"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "一区"
+      },
+      "topics": [
+        "临床终点",
+        "数字健康",
+        "可部署性"
+      ],
+      "tracks": [
+        {
+          "name": "Article",
+          "kind": "main",
+          "note": "TRIPOD+AI"
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        },
+        {
+          "name": "Comment",
+          "kind": "comment",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 10%",
+        "percent": 10.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "Editorial Manager / ScholarOne",
+        "preprint": "conditional",
+        "preprint_note": "预印本受限，通常需事先沟通并遵守媒体禁发期",
+        "code": "encouraged",
+        "code_note": "需完整方法与统计报告（TRIPOD+AI）",
+        "access": "hybrid",
+        "apc_note": "混合模式；OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2–3 轮",
+        "acceptance_note": "极低；不做前瞻性验证基本无望"
+      },
+      "official_url": "https://www.thelancet.com/journals/landig/home",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "TRIPOD+AI 清单"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "重临床终点与可部署性",
+      "review_cycle_weeks": 10,
+      "identity": {
+        "title": "The Lancet Digital Health",
+        "publisher": "Elsevier",
+        "issn": [
+          "2589-7500"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "25.700",
+        "review_cycle": "13 Weeks",
+        "acceptance": "",
+        "open_access": "Yes",
+        "gold_oa_share": "100.00%",
+        "official_url": "https://www.thelancet.com/journals/landig/home",
+        "submission_url": "",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=11170&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:28:28+08:00",
+        "status": "third_party"
+      }
+    },
+    {
+      "id": "nejm-ai",
+      "name": "NEJM AI",
+      "abbr": "NEJM AI",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "clinical",
+        "ai"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "一区"
+      },
+      "topics": [
+        "临床 AI",
+        "验证",
+        "临床部署"
+      ],
+      "tracks": [
+        {
+          "name": "Original Article",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        },
+        {
+          "name": "Editorial",
+          "kind": "comment",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "未公布",
+        "percent": null,
+        "scope": "期刊",
+        "year": "",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "Editorial Manager / ScholarOne",
+        "preprint": "conditional",
+        "preprint_note": "预印本受限，通常需事先沟通并遵守媒体禁发期",
+        "code": "encouraged",
+        "code_note": "需完整方法与统计报告（TRIPOD+AI）",
+        "access": "hybrid",
+        "apc_note": "混合模式；OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2–3 轮",
+        "acceptance_note": "极低；不做前瞻性验证基本无望"
+      },
+      "official_url": "https://ai.nejm.org/",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "临床验证"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "新刊但背靠 NEJM",
+      "review_cycle_weeks": 10,
+      "identity": {
+        "title": "NEJM AI",
+        "publisher": "New England Journal of Medicine",
+        "issn": [
+          "2836-9386",
+          "2836-9386"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00"
+    },
+    {
+      "id": "jamia",
+      "name": "Journal of the American Medical Informatics Association",
+      "abbr": "JAMIA",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "clinical"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "一区"
+      },
+      "topics": [
+        "信息学",
+        "EHR",
+        "临床决策支持"
+      ],
+      "tracks": [
+        {
+          "name": "Research and Applications",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        },
+        {
+          "name": "Brief Communication",
+          "kind": "short",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 15%",
+        "percent": 15.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "Editorial Manager",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（Elsevier 政策，需声明）",
+        "code": "encouraged",
+        "code_note": "鼓励提供代码/数据",
+        "access": "subscription",
+        "apc_note": "订阅制；选择 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2–3 轮",
+        "acceptance_note": "首轮决定通常 2–3 个月"
+      },
+      "official_url": "https://academic.oup.com/jamia",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "伦理声明"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "医学信息学顶刊",
+      "review_cycle_weeks": 10,
+      "identity": {
+        "title": "Journal of the American Medical Informatics Association",
+        "publisher": "Oxford University Press",
+        "issn": [
+          "1067-5027",
+          "1527-974X"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "7.100",
+        "review_cycle": "一般,3-8周",
+        "acceptance": "很难",
+        "open_access": "No",
+        "gold_oa_share": "39.34%",
+        "official_url": "https://academic.oup.com/jamia",
+        "submission_url": "https://mc.manuscriptcentral.com/jamia",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=5247&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:22:20+08:00",
+        "status": "third_party"
+      }
+    },
+    {
+      "id": "jbi",
+      "name": "Journal of Biomedical Informatics",
+      "abbr": "JBI",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "clinical",
+        "bioinformatics"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "二区"
+      },
+      "topics": [
+        "生物医学信息学",
+        "知识表示",
+        "临床 NLP"
+      ],
+      "tracks": [
+        {
+          "name": "Research Paper",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Methodological Review",
+          "kind": "review",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 20%",
+        "percent": 20.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "Editorial Manager",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（Elsevier 政策，需声明）",
+        "code": "encouraged",
+        "code_note": "鼓励提供代码/数据",
+        "access": "subscription",
+        "apc_note": "订阅制；选择 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2–3 轮",
+        "acceptance_note": "首轮决定通常 2–3 个月"
+      },
+      "official_url": "https://www.sciencedirect.com/journal/journal-of-biomedical-informatics",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "补充材料"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "方法+生物医学信息学，接受面较宽",
+      "review_cycle_weeks": 8,
+      "identity": {
+        "title": "Journal of Biomedical Informatics",
+        "publisher": "Elsevier",
+        "issn": [
+          "1532-0464",
+          "1532-0480"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "5.900",
+        "review_cycle": "平均10.3周",
+        "acceptance": "较易",
+        "open_access": "No",
+        "gold_oa_share": "33.80%",
+        "official_url": "http://www.journals.elsevier.com/journal-of-biomedical-informatics",
+        "submission_url": "https://www.editorialmanager.com/JBI",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=4216&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:22:20+08:00",
+        "status": "third_party"
+      }
+    },
+    {
+      "id": "cmpb",
+      "name": "Computer Methods and Programs in Biomedicine",
+      "abbr": "CMPB",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "medical-imaging",
+        "clinical"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "二区"
+      },
+      "topics": [
+        "方法实现",
+        "临床系统"
+      ],
+      "tracks": [
+        {
+          "name": "Research Paper",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        },
+        {
+          "name": "Software Paper",
+          "kind": "short",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 22%",
+        "percent": 22.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "Editorial Manager",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（Elsevier 政策，需声明）",
+        "code": "encouraged",
+        "code_note": "鼓励提供代码/数据",
+        "access": "subscription",
+        "apc_note": "订阅制；选择 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2–3 轮",
+        "acceptance_note": "首轮决定通常 2–3 个月"
+      },
+      "official_url": "https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "代码/数据"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "方法+系统实现，审稿较快，保底好选择",
+      "review_cycle_weeks": 8,
+      "identity": {
+        "title": "Computer Methods and Programs in Biomedicine",
+        "publisher": "Elsevier",
+        "issn": [
+          "0169-2607"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "6.400",
+        "review_cycle": "平均14.1周",
+        "acceptance": "约50%",
+        "open_access": "No",
+        "gold_oa_share": "34.39%",
+        "official_url": "http://www.journals.elsevier.com/computer-methods-and-programs-in-biomedicine/ 投稿规范预检（避免 Desk Rejection） 开始检查>>",
+        "submission_url": "https://www.editorialmanager.com/CMPB AI辅助快速完成投稿信初稿 一键撰写投稿信>>",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=1987&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:22:20+08:00",
+        "status": "third_party"
+      }
+    },
+    {
+      "id": "cmig",
+      "name": "Computerized Medical Imaging and Graphics",
+      "abbr": "CMIG",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "medical-imaging"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "三区"
+      },
+      "topics": [
+        "影像分析"
+      ],
+      "tracks": [
+        {
+          "name": "Research Paper",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 25%",
+        "percent": 25.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "Editorial Manager",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（Elsevier 政策，需声明）",
+        "code": "encouraged",
+        "code_note": "鼓励提供代码/数据",
+        "access": "subscription",
+        "apc_note": "订阅制；选择 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2–3 轮",
+        "acceptance_note": "首轮决定通常 2–3 个月"
+      },
+      "official_url": "https://www.sciencedirect.com/journal/computerized-medical-imaging-and-graphics",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "补充材料"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "影像分析方法刊",
+      "review_cycle_weeks": 8,
+      "identity": {
+        "title": "Computerized Medical Imaging and Graphics",
+        "publisher": "Elsevier",
+        "issn": [
+          "0895-6111"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "5.500",
+        "review_cycle": "平均6.0个月",
+        "acceptance": "较易",
+        "open_access": "No",
+        "gold_oa_share": "24.06%",
+        "official_url": "https://www.journals.elsevier.com/computerized-medical-imaging-and-graphics 投稿规范预检（避免 Desk Rejection） 开始检查>>",
+        "submission_url": "https://www.editorialmanager.com/CMIG AI辅助快速完成投稿信初稿 一键撰写投稿信>>",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=2001&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:22:20+08:00",
+        "status": "third_party"
+      }
+    },
+    {
+      "id": "aim",
+      "name": "Artificial Intelligence in Medicine",
+      "abbr": "AIIM",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "clinical",
+        "ai"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "二区"
+      },
+      "topics": [
+        "临床决策支持",
+        "知识表示"
+      ],
+      "tracks": [
+        {
+          "name": "Research Paper",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 20%",
+        "percent": 20.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "Editorial Manager",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（Elsevier 政策，需声明）",
+        "code": "encouraged",
+        "code_note": "鼓励提供代码/数据",
+        "access": "subscription",
+        "apc_note": "订阅制；选择 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2–3 轮",
+        "acceptance_note": "首轮决定通常 2–3 个月"
+      },
+      "official_url": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "补充材料"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "临床决策支持、知识表示",
+      "review_cycle_weeks": 10,
+      "identity": {
+        "title": "Artificial Intelligence in Medicine",
+        "publisher": "Elsevier",
+        "issn": [
+          "0933-3657"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "7.800",
+        "review_cycle": "平均7.2周",
+        "acceptance": "容易",
+        "open_access": "Yes (Hybrid，可自选是否OA)",
+        "gold_oa_share": "32.34%",
+        "official_url": "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine",
+        "submission_url": "https://www.editorialmanager.com/AIIM",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=893&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:22:20+08:00",
+        "status": "third_party"
+      }
+    },
+    {
+      "id": "medical-physics",
+      "name": "Medical Physics",
+      "abbr": "Med Phys",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "medical-imaging"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "二区"
+      },
+      "topics": [
+        "成像物理",
+        "放疗",
+        "重建"
+      ],
+      "tracks": [
+        {
+          "name": "Research Article",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Technical Note",
+          "kind": "short",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 35%",
+        "percent": 35.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "ScholarOne",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本，需披露",
+        "code": "encouraged",
+        "code_note": "需 CLAIM/STARD 清单；数据声明是常见退稿点",
+        "access": "subscription",
+        "apc_note": "订阅制；可选 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2 轮",
+        "acceptance_note": "Radiology 拒稿率高，临床终点要讲清楚"
+      },
+      "official_url": "https://aapm.onlinelibrary.wiley.com/journal/24734209",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "补充材料"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "成像物理、放疗、重建",
+      "review_cycle_weeks": 8,
+      "identity": {
+        "title": "Medical Physics",
+        "publisher": "Wiley (John Wiley & Sons)",
+        "issn": [
+          "0094-2405",
+          "2473-4209"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "3.200",
+        "review_cycle": "很快,2-3周",
+        "acceptance": "较易",
+        "open_access": "No",
+        "gold_oa_share": "36.97%",
+        "official_url": "http://online.medphys.org/ 投稿规范预检（避免 Desk Rejection） 开始检查>>",
+        "submission_url": "http://medphys.peerx-press.org/cgi-bin/main.plex AI辅助快速完成投稿信初稿 一键撰写投稿信>>",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=5797&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:22:20+08:00",
+        "status": "third_party"
+      }
+    },
+    {
+      "id": "nature-communications",
+      "name": "Nature Communications",
+      "abbr": "Nat Commun",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "ai",
+        "clinical",
+        "bioinformatics"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "一区"
+      },
+      "topics": [
+        "跨学科",
+        "多模态"
+      ],
+      "tracks": [
+        {
+          "name": "Article",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 8%",
+        "percent": 8.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "Snapp / Editorial Manager",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本，需披露并遵守媒体禁发期",
+        "code": "required",
+        "code_note": "需代码与数据可用性声明，否则易被退回",
+        "access": "open",
+        "apc_note": "开放获取，需 APC（数千美元级，以官网为准）",
+        "attendance": "n/a",
+        "rounds": "2–3 轮",
+        "acceptance_note": "门槛高，重临床影响与统计严谨性"
+      },
+      "official_url": "https://www.nature.com/ncomms/",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "代码/数据"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "方法+多中心验证的通用出口",
+      "review_cycle_weeks": 12,
+      "identity": {
+        "title": "Nature Communications",
+        "publisher": "Springer Science and Business Media LLC",
+        "issn": [
+          "2041-1723"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "18.100",
+        "review_cycle": "平均1.0个月",
+        "acceptance": "66%",
+        "open_access": "Yes",
+        "gold_oa_share": "99.94%",
+        "official_url": "https://www.nature.com/ncomms/ 投稿规范预检（避免 Desk Rejection） 开始检查>>",
+        "submission_url": "https://mts-ncomms.nature.com/cgi-bin/main.plex AI辅助快速完成投稿信初稿 一键撰写投稿信>>",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=8411&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:22:20+08:00",
+        "status": "third_party"
+      }
+    },
+    {
+      "id": "science-advances",
+      "name": "Science Advances",
+      "abbr": "Sci Adv",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "ai",
+        "clinical"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "一区"
+      },
+      "topics": [
+        "跨学科"
+      ],
+      "tracks": [
+        {
+          "name": "Research Article",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 10%",
+        "percent": 10.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "Editorial Manager",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本",
+        "code": "required",
+        "code_note": "需数据/代码可用性声明",
+        "access": "hybrid",
+        "apc_note": "混合模式；OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2–3 轮",
+        "acceptance_note": "跨学科综合刊，重广泛意义"
+      },
+      "official_url": "https://www.science.org/journal/sciadv",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "补充材料"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "跨学科综合刊",
+      "review_cycle_weeks": 10,
+      "identity": {
+        "title": "Science Advances",
+        "publisher": "American Association for the Advancement of Science (AAAS)",
+        "issn": [
+          "2375-2548",
+          "2375-2548"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "13.900",
+        "review_cycle": "29 Weeks",
+        "acceptance": "",
+        "open_access": "Yes",
+        "gold_oa_share": "99.92%",
+        "official_url": "https://advances.sciencemag.org/ 投稿规范预检（避免 Desk Rejection） 开始检查>>",
+        "submission_url": "https://cts.sciencemag.org./scc/ AI辅助快速完成投稿信初稿 一键撰写投稿信>>",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=10342&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:22:20+08:00",
+        "status": "third_party"
+      }
+    },
+    {
+      "id": "tpami",
+      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "abbr": "TPAMI",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "cv",
+        "ai"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "一区"
+      },
+      "topics": [
+        "方法创新",
+        "视觉"
+      ],
+      "tracks": [
+        {
+          "name": "Regular Paper",
+          "kind": "main",
+          "note": "周期长"
+        },
+        {
+          "name": "Survey",
+          "kind": "review",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 12%",
+        "percent": 12.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "ScholarOne",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（投稿时声明）",
+        "code": "encouraged",
+        "code_note": "建议附代码链接",
+        "access": "subscription",
+        "apc_note": "订阅制；可选 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2 轮",
+        "acceptance_note": "TMI 竞争最激烈"
+      },
+      "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "补充材料"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "纯方法学最高档之一；周期长",
+      "review_cycle_weeks": 16,
+      "identity": {
+        "title": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "publisher": "Institute of Electrical and Electronics Engineers",
+        "issn": [
+          "0162-8828",
+          "2160-9292",
+          "1939-3539"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "20.400",
+        "review_cycle": "平均7.9个月",
+        "acceptance": "很难",
+        "open_access": "No",
+        "gold_oa_share": "5.12%",
+        "official_url": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34 投稿规范预检（避免 Desk Rejection） 开始检查>>",
+        "submission_url": "https://mc.manuscriptcentral.com/tpami-cs AI辅助快速完成投稿信初稿 一键撰写投稿信>>",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=3411&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:22:20+08:00",
+        "status": "third_party"
+      }
+    },
+    {
+      "id": "jiim",
+      "name": "Journal of Imaging Informatics in Medicine",
+      "abbr": "JIIM",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "medical-imaging",
+        "clinical"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "三区"
+      },
+      "topics": [
+        "影像信息学"
+      ],
+      "tracks": [
+        {
+          "name": "Original Research",
+          "kind": "main",
+          "note": ""
+        },
+        {
+          "name": "Technical Note",
+          "kind": "short",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 40%",
+        "percent": 40.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "ScholarOne",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本，需披露",
+        "code": "encouraged",
+        "code_note": "需 CLAIM/STARD 清单；数据声明是常见退稿点",
+        "access": "subscription",
+        "apc_note": "订阅制；可选 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2 轮",
+        "acceptance_note": "Radiology 拒稿率高，临床终点要讲清楚"
+      },
+      "official_url": "https://link.springer.com/journal/10278",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "原始研究",
+        "补充材料"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "原 Journal of Digital Imaging；门槛适中",
+      "review_cycle_weeks": 6,
+      "identity": {
+        "title": "Journal of Imaging Informatics in Medicine",
+        "publisher": "Springer-Verlag",
+        "issn": [
+          "2948-2933"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "3.100",
+        "review_cycle": "较慢,6-12周",
+        "acceptance": "容易",
+        "open_access": "No",
+        "gold_oa_share": "28.00%",
+        "official_url": "https://www.springer.com/10278",
+        "submission_url": "https://www.editorialmanager.com/jdim",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=4418&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:22:20+08:00",
+        "status": "third_party"
+      }
+    },
+    {
+      "id": "ieee-reviews-bme",
+      "name": "IEEE Reviews in Biomedical Engineering",
+      "abbr": "IEEE RBME",
+      "edition": "",
+      "type": "journal",
+      "rolling": true,
+      "areas": [
+        "medical-imaging",
+        "clinical"
+      ],
+      "tier": {
+        "ccf": null,
+        "cas": "二区"
+      },
+      "topics": [
+        "综述",
+        "教程"
+      ],
+      "tracks": [
+        {
+          "name": "Review",
+          "kind": "review",
+          "note": "只收综述"
+        },
+        {
+          "name": "Tutorial",
+          "kind": "review",
+          "note": ""
+        }
+      ],
+      "acceptance": {
+        "display": "约 20%",
+        "percent": 20.0,
+        "scope": "期刊",
+        "year": "2023",
+        "note": "近年统计值，逐年波动；投稿前以官网最新统计为准"
+      },
+      "submission": {
+        "system": "ScholarOne",
+        "preprint": "allowed",
+        "preprint_note": "允许预印本（投稿时声明）",
+        "code": "encouraged",
+        "code_note": "建议附代码链接",
+        "access": "subscription",
+        "apc_note": "订阅制；可选 OA 需 APC",
+        "attendance": "n/a",
+        "rounds": "2 轮",
+        "acceptance_note": "TMI 竞争最激烈"
+      },
+      "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4664312",
+      "cfp_url": "",
+      "deadlines": [],
+      "materials": [
+        "综述",
+        "文献覆盖说明"
+      ],
+      "page_limit": null,
+      "blind": null,
+      "notes": "只收综述/教程",
+      "review_cycle_weeks": 12,
+      "identity": {
+        "title": "IEEE Reviews in Biomedical Engineering",
+        "publisher": "Institute of Electrical and Electronics Engineers",
+        "issn": [
+          "1937-3333",
+          "1941-1189"
+        ],
+        "source": "Crossref",
+        "url": "",
+        "match": 1.0,
+        "checked_at": "2026-11-05T21:20:46+08:00",
+        "status": "verified"
+      },
+      "verified_at": "2026-11-05T21:20:46+08:00",
+      "metrics": {
+        "impact_factor": "16.000",
+        "review_cycle": "",
+        "acceptance": "",
+        "open_access": "No",
+        "gold_oa_share": "22.00%",
+        "official_url": "",
+        "submission_url": "",
+        "source": "LetPub",
+        "url": "https://www.letpub.com.cn/index.php?journalid=23393&page=journalapp&view=detail",
+        "checked_at": "2026-11-05T21:22:20+08:00",
+        "status": "third_party"
+      }
+    }
+  ]
+}

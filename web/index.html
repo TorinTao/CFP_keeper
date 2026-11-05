@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CFP Keeper · 科研会议截稿日历</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+<header class="nav">
+  <nav class="nav-tabs" id="nav-tabs">
+    <button class="nav-tab active" data-view="calendar">日历</button>
+    <button class="nav-tab" data-view="all">全部</button>
+    <button class="nav-tab" data-view="watch">关注</button>
+  </nav>
+  <div class="nav-right">
+    <span id="nav-countdown" class="nav-cd">加载中…</span>
+    <button id="btn-verify" class="ghost small" title="重新访问官网核对日期（Lexmount Web Fetch / Cloud Browser）">核验</button>
+    <button id="btn-settings" class="ghost small" title="自动抓取、提醒与导出设置">设置</button>
+    <span id="health-dot" class="dot" title="服务状态"></span>
+  </div>
+</header>
+
+<main>
+  <!-- ================================ 日历 ================================ -->
+  <section id="view-calendar" class="view">
+    <section class="calendar-band">
+      <div class="calendar-head">
+        <h2>日历</h2>
+        <div class="calendar-controls">
+          <div class="scope-switch" id="cal-mode">
+            <button class="scope-tab active" data-mode="verified">已核验</button>
+            <button class="scope-tab" data-mode="all">含推测</button>
+          </div>
+          <div class="scope-switch" id="cal-scope">
+            <button class="scope-tab active" data-scope="all">全部</button>
+            <button class="scope-tab" data-scope="watch">仅关注</button>
+          </div>
+          <div class="cal-legend">
+            <span><i class="dot k-full_paper"></i>全文</span>
+            <span><i class="dot k-abstract"></i>摘要</span>
+            <span><i class="dot k-notification"></i>通知</span>
+            <span><i class="dot k-conference"></i>会期</span>
+          </div>
+          <select id="year-select"></select>
+        </div>
+      </div>
+      <div id="year-calendar" class="year-calendar"></div>
+    </section>
+  </section>
+
+  <!-- ================================ 全部 ================================ -->
+  <section id="view-all" class="view" hidden>
+    <div class="section-head">
+      <h2>全部会议 / 期刊</h2>
+      <span id="all-count" class="muted"></span>
+    </div>
+
+    <section class="filters">
+      <div class="chips" id="area-chips">
+        <button class="chip active" data-area="">全部领域</button>
+        <button class="chip" data-area="medical-imaging">医学影像</button>
+        <button class="chip" data-area="ai">人工智能</button>
+        <button class="chip" data-area="clinical">临床/信息学</button>
+        <button class="chip" data-area="nlp">NLP</button>
+        <button class="chip" data-area="cv">CV</button>
+        <button class="chip" data-area="bioinformatics">生物信息</button>
+      </div>
+      <div class="filter-right">
+        <select id="type-select">
+          <option value="">会议 + 期刊</option>
+          <option value="conference">仅会议</option>
+          <option value="journal">仅期刊</option>
+        </select>
+        <select id="within-select">
+          <option value="">全部时间</option>
+          <option value="7">7 天内</option>
+          <option value="30">30 天内</option>
+          <option value="90">90 天内</option>
+          <option value="365">一年内</option>
+        </select>
+        <select id="topic-select"><option value="">全部主题</option></select>
+        <input id="search" type="search" placeholder="搜索简称 / 全称…" />
+        <label class="toggle"><input id="show-passed" type="checkbox" /> 显示已截止</label>
+      </div>
+    </section>
+
+    <table class="venue-table">
+      <thead>
+        <tr>
+          <th class="col-watch"></th>
+          <th>会议 / 期刊</th>
+          <th>下一个截止</th>
+          <th class="mono">AoE / 原始时区</th>
+          <th class="mono">北京时间</th>
+          <th class="num">剩余</th>
+          <th>状态</th>
+          <th class="col-link">跳转</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <p id="empty" class="empty" hidden>没有符合条件的条目。</p>
+  </section>
+
+  <!-- ================================ 关注 ================================ -->
+  <section id="view-watch" class="view" hidden>
+    <div class="section-head">
+      <h2>关注的会议 / 期刊</h2>
+      <span id="watch-count" class="muted"></span>
+    </div>
+    <table class="venue-table">
+      <thead>
+        <tr>
+          <th class="col-watch"></th>
+          <th>会议 / 期刊</th>
+          <th>下一个截止</th>
+          <th class="mono">AoE / 原始时区</th>
+          <th class="mono">北京时间</th>
+          <th class="num">剩余</th>
+          <th>状态</th>
+          <th class="col-link">跳转</th>
+        </tr>
+      </thead>
+      <tbody id="rows-home"></tbody>
+    </table>
+    <p id="empty-home" class="empty" hidden>
+      还没有关注任何会议 / 期刊。去「全部」页点行首的 ☆ 收藏，这里就只显示你在意的。
+    </p>
+  </section>
+</main>
+
+<footer class="statusbar">
+  <div id="scrape-status">抓取记录加载中…</div>
+  <div class="statusbar-right">
+    <span id="verify-status" class="muted"></span>
+    <span id="reminder-status" class="muted"></span>
+    <span id="meta-version" class="muted"></span>
+  </div>
+</footer>
+
+<aside id="drawer" class="drawer" hidden>
+  <div class="drawer-head">
+    <div>
+      <h2 id="d-title">—</h2>
+      <p id="d-sub" class="muted"></p>
+    </div>
+    <button id="d-close" class="icon-btn" aria-label="关闭">×</button>
+  </div>
+  <div class="drawer-body">
+    <div class="d-actions">
+      <button id="d-watch" class="ghost">加入关注</button>
+      <button id="d-verify" class="ghost" title="只核验这一个会议">立即核验</button>
+      <select id="d-status">
+        <option value="">未标记</option>
+        <option value="planning">准备中</option>
+        <option value="submitted">已投</option>
+        <option value="rejected">被拒</option>
+        <option value="accepted">已中</option>
+      </select>
+      <span id="d-links" class="d-links"></span>
+    </div>
+    <h3>截止时间线</h3>
+    <ul id="d-deadlines" class="timeline"></ul>
+    <div id="d-journal" hidden></div>
+    <h3>赛道</h3>
+    <ul id="d-tracks" class="tracks"></ul>
+    <h3>主题</h3>
+    <div id="d-topics" class="topic-list"></div>
+    <h3>投稿须知 <span class="h3-note">通行惯例，投稿前以官网为准</span></h3>
+    <dl id="d-submission" class="submission"></dl>
+    <h3>材料清单</h3>
+    <ul id="d-materials" class="materials"></ul>
+    <div id="d-meta" class="d-meta"></div>
+    <div id="d-candidates" class="candidates" hidden>
+      <h3>未自动写入的抓取结果 <span class="h3-note">超出安全边界，需人工判断</span></h3>
+      <ul id="d-candidate-list"></ul>
+    </div>
+
+    <div id="d-manual">
+      <h3>人工核验 <span class="h3-note">官网打不开时，自己看一眼填进来</span></h3>
+      <div class="manual-verify">
+        <select id="mv-kind" class="setting-input"></select>
+        <input id="mv-date" type="date" class="setting-input" />
+        <input id="mv-url" type="url" class="setting-input" placeholder="来源 URL（可选）" />
+        <button id="mv-submit" class="ghost">保存为人工核验</button>
+      </div>
+      <p class="muted setting-hint" id="mv-hint">填完会标记为「人工核验」，并记录来源；之后自动核验不会覆盖它。</p>
+    </div>
+  </div>
+</aside>
+
+<aside id="settings" class="drawer" hidden>
+  <div class="drawer-head">
+    <div>
+      <h2>设置</h2>
+      <p class="muted">自动抓取 · 提醒 · 导出</p>
+    </div>
+    <button id="s-close" class="icon-btn" aria-label="关闭">×</button>
+  </div>
+  <div class="drawer-body">
+    <h3>自动抓取</h3>
+    <label class="setting-check"><input type="checkbox" id="s-auto" /> 每天自动抓取一次</label>
+    <div class="setting-row">
+      <span class="setting-label">每天时间</span>
+      <input type="time" id="s-time" class="setting-input" />
+      <span class="muted">北京时间</span>
+    </div>
+    <p class="muted setting-hint" id="s-schedule-info">—</p>
+    <div class="setting-row">
+      <button id="s-run-now" class="ghost">立即抓取一次</button>
+      <span class="muted" id="s-run-info"></span>
+    </div>
+
+    <h3>抓取结果处理</h3>
+    <label class="setting-check"><input type="checkbox" id="s-auto-apply" /> 自动写入主库（无需人工确认）</label>
+    <div class="setting-row">
+      <span class="setting-label">安全窗口</span>
+      <input type="number" id="s-guard" class="setting-input narrow" min="1" max="365" />
+      <span class="muted">天（超出判为歧义/异常，不写）</span>
+    </div>
+    <label class="setting-check"><input type="checkbox" id="s-protect" /> 保护人工核验过的数据</label>
+    <label class="setting-check"><input type="checkbox" id="s-browser-fallback" /> 渲染兜底：Web Fetch 读不出时启用 Cloud Browser</label>
+
+    <h3>自动核验 <span class="h3-note">去官网核对已存日期</span></h3>
+    <label class="setting-check"><input type="checkbox" id="s-verify" /> 每天自动核验一次</label>
+    <div class="setting-row">
+      <span class="setting-label">每天时间</span>
+      <input type="time" id="s-verify-time" class="setting-input" />
+      <span class="muted">北京时间</span>
+    </div>
+    <p class="muted setting-hint" id="s-verify-info">—</p>
+    <div class="setting-row">
+      <span class="setting-label">容差</span>
+      <input type="number" id="s-verify-shift" class="setting-input narrow" min="0" max="365" />
+      <span class="muted">天（官网日期差在此范围内的直接更新）</span>
+    </div>
+    <label class="setting-check"><input type="checkbox" id="s-verify-pending" /> 只核验「待复核 / 自动抓取」的条目</label>
+
+    <h3>期刊核验 <span class="h3-note">Crossref 核验身份 · LetPub 取指标</span></h3>
+    <div class="setting-row">
+      <button id="s-journal-verify" class="ghost" style="grid-column: 1 / 3; justify-self: start; white-space: nowrap;">立即核验期刊</button>
+      <span class="muted" id="s-journal-info">—</span>
+    </div>
+    <p class="muted setting-hint">期刊没有截止日期，核验的是：全称/出版社/ISSN（Crossref，权威）、影响因子/审稿周期/录用比例（LetPub，第三方经验值）。</p>
+
+    <h3>提醒</h3>
+    <div class="setting-row">
+      <span class="setting-label">提前天数</span>
+      <input type="text" id="s-thresholds" class="setting-input" placeholder="30,14,7,3,1" />
+    </div>
+    <div class="setting-row">
+      <span class="setting-label">每日周报</span>
+      <input type="number" id="s-digest" class="setting-input narrow" min="0" max="23" />
+      <span class="muted">点</span>
+    </div>
+    <label class="setting-check"><input type="checkbox" id="s-toast" /> 桌面通知</label>
+
+    <h3>导出</h3>
+    <div class="export-row">
+      <select id="s-ics-range" aria-label="导出时间范围">
+        <option value="90">未来 90 天</option>
+        <option value="180">未来 180 天</option>
+        <option value="365" selected>未来一年</option>
+        <option value="1095">未来三年</option>
+      </select>
+      <a id="s-ics" class="primary export-btn" href="/api/ics?within=365" download>导出 .ics</a>
+    </div>
+    <p class="muted setting-hint">导出截止时间事件（UTC 存储），含提前 7/3/1 天提醒；期刊为滚动投稿，不导出。</p>
+
+    <div class="settings-foot">
+      <button id="s-save" class="primary">保存设置</button>
+      <span id="s-save-info" class="muted"></span>
+    </div>
+  </div>
+</aside>
+
+<div id="overlay" class="overlay" hidden></div>
+<div id="day-popover" class="day-popover" hidden></div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
